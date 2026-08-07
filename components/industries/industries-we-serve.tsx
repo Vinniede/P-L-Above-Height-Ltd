@@ -18,7 +18,7 @@ const industries = [
     title: "Construction",
     description:
       "Residential, commercial and civil construction solutions designed for projects of every scale.",
-    image: "/images/industries/Modern commercial construction site.jfif",
+    image: "/images/Industries/Modern commercial construction site.jfif",
     icon: Building2,
     accent: "Construction",
   },
@@ -26,7 +26,7 @@ const industries = [
     title: "Manufacturing",
     description:
       "Reliable engineering products, industrial tools and safety equipment supporting modern manufacturing facilities.",
-    image: "/images/industries/Industrial factory interior.jfif",
+    image: "/images/Industries/Industrial factory interior.jfif",
     icon: Factory,
     accent: "Industrial",
   },
@@ -34,7 +34,7 @@ const industries = [
     title: "Government",
     description:
       "Supplying compliant construction materials and engineering solutions for public infrastructure and institutional projects.",
-    image: "/images/industries/Road or public infrastructure project.jfif",
+    image: "/images/Industries/Road or public infrastructure project.jfif",
     icon: Landmark,
     accent: "Public Works",
   },
@@ -42,7 +42,7 @@ const industries = [
     title: "Infrastructure",
     description:
       "Supporting roads, bridges and large-scale infrastructure developments with quality materials and dependable execution.",
-    image: "/images/industries/Bridge or highway construction.jfif",
+    image: "/images/Industries/Bridge or highway construction.jfif",
     icon: Layers3,
     accent: "Civil Works",
   },
@@ -50,7 +50,7 @@ const industries = [
     title: "Commercial",
     description:
       "Professional construction and engineering solutions for offices, retail spaces and commercial developments.",
-    image: "/images/industries/Office building construction.jpg",
+    image: "/images/Industries/Office building construction.jpg",
     icon: Warehouse,
     accent: "Business",
   },
@@ -58,7 +58,7 @@ const industries = [
     title: "Real Estate",
     description:
       "Supplying premium materials and construction services for residential housing and mixed-use developments.",
-    image: "/images/industries/Residential housing development.jfif",
+    image: "/images/Industries/Residential housing development.jfif",
     icon: Home,
     accent: "Development",
   },

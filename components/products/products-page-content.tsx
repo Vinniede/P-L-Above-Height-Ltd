@@ -541,7 +541,7 @@ export function ProductsPageContent() {
                   className="relative overflow-hidden rounded-[1.35rem]"
                 >
                   <Image
-                    src="/images/services/Construction materials display.jfif"
+                    src="/images/Services/Construction materials display.jfif"
                     alt="Construction materials display"
                     width={900}
                     height={700}

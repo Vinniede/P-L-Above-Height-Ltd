@@ -29,18 +29,18 @@ const serviceHighlights = [
 const materialsCards = [
   {
     title: "Cement & Binders",
-    image: "/images/services/Cement bags stacked in warehouse.jfif",
+    image: "/images/Services/Cement bags stacked in warehouse.jfif",
     description:
       "Reliable bulk supply for structural and finishing applications.",
   },
   {
     title: "Steel Reinforcement",
-    image: "/images/services/Reinforcement steel bars.jfif",
+    image: "/images/Services/Reinforcement steel bars.jfif",
     description: "High-strength steel solutions for structural integrity.",
   },
   {
     title: "Blocks & Bricks",
-    image: "/images/services/Blocks and bricks.jfif",
+    image: "/images/Services/Blocks and bricks.jfif",
     description: "Durable masonry materials for rapid project execution.",
   },
 ];
@@ -49,33 +49,33 @@ const engineeringFeatures = [
   {
     title: "Industrial Engineering Tools",
     icon: Wrench,
-    image: "/images/services/Industrial engineering tools.jfif",
+    image: "/images/Services/Industrial engineering tools.jfif",
   },
   {
     title: "Precision Measuring Equipment",
     icon: Layers3,
-    image: "/images/services/Precision measuring equipment.jfif",
+    image: "/images/Services/Precision measuring equipment.jfif",
   },
   {
     title: "Professional Workshop",
     icon: Factory,
-    image: "/images/services/Professional workshop.jfif",
+    image: "/images/Services/Professional workshop.jfif",
   },
 ];
 
 const safetyFeatures = [
-  { title: "PPE Supply", image: "/images/services/Safety helmets.jfif" },
+  { title: "PPE Supply", image: "/images/Services/Safety helmets.jfif" },
   {
     title: "Reflective Jackets",
-    image: "/images/services/Reflective jackets.jpg",
+    image: "/images/Services/Reflective jackets.jpg",
   },
   {
     title: "Safety Harnesses",
-    image: "/images/services/Safety harnesses.jfif",
+    image: "/images/Services/Safety harnesses.jfif",
   },
   {
     title: "Inspection Ready",
-    image: "/images/services/Industrial safety inspection.jfif",
+    image: "/images/Services/Industrial safety inspection.jfif",
   },
 ];
 
@@ -232,7 +232,7 @@ export function ServicesPageContent() {
                   className="relative overflow-hidden rounded-[1.35rem]"
                 >
                   <Image
-                    src="/images/services/Commercial building under construction.jfif"
+                    src="/images/Services/Commercial building under construction.jfif"
                     alt="Commercial building under construction"
                     width={900}
                     height={700}
@@ -356,7 +356,7 @@ export function ServicesPageContent() {
             className="overflow-hidden rounded-[2.5rem] border border-slate-200 shadow-soft"
           >
             <Image
-              src="/images/services/Professional workshop.jfif"
+              src="/images/Services/Professional workshop.jfif"
               alt="Professional workshop"
               width={900}
               height={700}
@@ -373,7 +373,7 @@ export function ServicesPageContent() {
         className="relative overflow-hidden bg-white py-16"
       >
         <Image
-          src="/images/services/Commercial building under construction.jfif"
+          src="/images/Services/Commercial building under construction.jfif"
           alt="Commercial building under construction"
           fill
           className="absolute inset-0 object-cover object-center"
@@ -392,7 +392,7 @@ export function ServicesPageContent() {
               className="overflow-hidden rounded-[2.5rem] border border-slate-200 bg-brand-bg p-5 shadow-soft"
             >
               <Image
-                src="/images/services/Commercial building under construction.jfif"
+                src="/images/Services/Commercial building under construction.jfif"
                 alt="Commercial building under construction"
                 width={900}
                 height={700}
@@ -403,7 +403,7 @@ export function ServicesPageContent() {
               <div className="mt-5 grid gap-4 md:grid-cols-2">
                 <div className="overflow-hidden rounded-[1.6rem] border border-slate-200 bg-white">
                   <Image
-                    src="/images/services/Reinforced concrete works.png"
+                    src="/images/Services/Reinforced concrete works.png"
                     alt="Reinforced concrete works"
                     width={500}
                     height={360}
@@ -414,7 +414,7 @@ export function ServicesPageContent() {
                 </div>
                 <div className="overflow-hidden rounded-[1.6rem] border border-slate-200 bg-white">
                   <Image
-                    src="/images/services/Structural steel installation.jfif"
+                    src="/images/Services/Structural steel installation.jfif"
                     alt="Structural steel installation"
                     width={500}
                     height={360}
@@ -530,7 +530,7 @@ export function ServicesPageContent() {
 
       <section className="relative overflow-hidden bg-white py-16">
         <Image
-          src="/images/services/Stone loading with excavator.jfif"
+          src="/images/Services/Stone loading with excavator.jfif"
           alt="Stone loading with excavator"
           fill
           className="absolute inset-0 object-cover object-center"
@@ -576,7 +576,7 @@ export function ServicesPageContent() {
           >
             <div className="overflow-hidden rounded-[2.5rem] border border-slate-200 bg-brand-bg p-4 shadow-soft">
               <Image
-                src="/images/services/Stone loading with excavator.jfif"
+                src="/images/Services/Stone loading with excavator.jfif"
                 alt="Stone loading with excavator"
                 width={900}
                 height={700}
@@ -588,7 +588,7 @@ export function ServicesPageContent() {
             <div className="flex gap-4">
               <div className="overflow-hidden rounded-full border-4 border-white shadow-soft">
                 <Image
-                  src="/images/services/Quarry crushing plant.jfif"
+                  src="/images/Services/Quarry crushing plant.jfif"
                   alt="Quarry crushing plant"
                   width={180}
                   height={180}
@@ -599,7 +599,7 @@ export function ServicesPageContent() {
               </div>
               <div className="overflow-hidden rounded-full border-4 border-white shadow-soft">
                 <Image
-                  src="/images/services/Ballast stockpiles.jfif"
+                  src="/images/Services/Ballast stockpiles.jfif"
                   alt="Ballast stockpiles"
                   width={180}
                   height={180}
@@ -623,7 +623,7 @@ export function ServicesPageContent() {
             className="overflow-hidden rounded-[2.5rem] border border-slate-200 bg-white p-4 shadow-soft"
           >
             <Image
-              src="/images/services/Precision measuring equipment.jfif"
+              src="/images/Services/Precision measuring equipment.jfif"
               alt="Precision measuring equipment"
               width={900}
               height={700}
@@ -682,7 +682,7 @@ export function ServicesPageContent() {
 
       <section className="relative overflow-hidden py-16 text-white">
         <Image
-          src="/images/services/Welder with sparks.jfif"
+          src="/images/Services/Welder with sparks.jfif"
           alt="Welder with sparks"
           fill
           className="absolute inset-0 object-cover object-center"
@@ -748,7 +748,7 @@ export function ServicesPageContent() {
             >
               <div className="overflow-hidden rounded-[2.5rem] border border-white/20 bg-white/10 p-4 shadow-2xl backdrop-blur-xl">
                 <Image
-                  src="/images/services/Welding electrodes.jfif"
+                  src="/images/Services/Welding electrodes.jfif"
                   alt="Welding electrodes"
                   width={900}
                   height={700}
@@ -759,7 +759,7 @@ export function ServicesPageContent() {
               </div>
               <div className="overflow-hidden rounded-[2.5rem] border border-white/20 bg-white/10 p-4 shadow-2xl backdrop-blur-xl">
                 <Image
-                  src="/images/services/Fabrication workshop.jfif"
+                  src="/images/Services/Fabrication workshop.jfif"
                   alt="Fabrication workshop"
                   width={900}
                   height={700}
@@ -783,7 +783,7 @@ export function ServicesPageContent() {
             className="overflow-hidden rounded-[2.5rem] border border-slate-200 bg-brand-bg p-4 shadow-soft"
           >
             <Image
-              src="/images/services/Workers wearing complete PPE.jfif"
+              src="/images/Services/Workers wearing complete PPE.jfif"
               alt="Workers wearing complete PPE"
               width={900}
               height={700}
@@ -927,7 +927,7 @@ export function ServicesPageContent() {
 
       <section className="relative overflow-hidden py-14 text-white">
         <Image
-          src="/images/services/Commercial building under construction.jfif"
+          src="/images/Services/Commercial building under construction.jfif"
           alt="Commercial building under construction"
           fill
           className="absolute inset-0 object-cover object-center"

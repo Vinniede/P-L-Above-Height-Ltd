@@ -35,7 +35,7 @@ const projects = [
     status: "Completed",
     description:
       "A premium mixed-use tower delivered with precision coordination, quality materials and structural execution.",
-    image: "/images/projects/High-rise buildings.jfif",
+    image: "/images/Projects/High-rise buildings.jfif",
     scope: ["Structural works", "Material supply", "Site coordination"],
     products: ["Steel reinforcement", "Cement", "Safety equipment"],
     services: ["Construction delivery", "Procurement support"],
@@ -51,7 +51,7 @@ const projects = [
     status: "Completed",
     description:
       "A modern apartment complex completed with reliable supply support and refined execution.",
-    image: "/images/projects/Residential apartments.jfif",
+    image: "/images/Projects/Residential apartments.jfif",
     scope: [
       "Residential construction",
       "Finishing works",
@@ -71,7 +71,7 @@ const projects = [
     status: "Completed",
     description:
       "A high-standard commercial build completed with durable materials and efficient delivery.",
-    image: "/images/projects/Commercial buildings.jfif",
+    image: "/images/Projects/Commercial buildings.jfif",
     scope: ["Commercial fit-out", "Structural supply", "Site management"],
     products: ["Steel products", "Engineering tools", "Welding consumables"],
     services: ["Construction delivery", "Project coordination"],
@@ -87,7 +87,7 @@ const projects = [
     status: "Completed",
     description:
       "A public infrastructure project supported with quarry products and dependable civil works delivery.",
-    image: "/images/projects/Roads.jfif",
+    image: "/images/Projects/Roads.jfif",
     scope: ["Roadworks", "Drainage support", "Aggregate supply"],
     products: ["Ballast", "Hardcore", "Sand"],
     services: ["Civil works", "Material logistics"],
@@ -102,7 +102,7 @@ const projects = [
     status: "Completed",
     description:
       "A warehouse delivered for industrial efficiency with strong structural support and rapid deployment.",
-    image: "/images/projects/Warehouses.jfif",
+    image: "/images/Projects/Warehouses.jfif",
     scope: ["Warehousing", "Heavy-duty structure", "Delivery planning"],
     products: ["Steel beams", "Engineering supplies", "Safety systems"],
     services: ["Industrial construction", "Installation support"],
@@ -117,7 +117,7 @@ const projects = [
     status: "Completed",
     description:
       "A purpose-built factory completed with durable infrastructure and coordinated industrial supply.",
-    image: "/images/projects/Factory construction.jfif",
+    image: "/images/Projects/Factory construction.jfif",
     scope: ["Factory shell", "Process support", "Safety supply"],
     products: ["Steel products", "PPE", "Engineering tools"],
     services: ["Construction delivery", "Industrial supply"],
@@ -132,7 +132,7 @@ const projects = [
     status: "Ongoing",
     description:
       "High-volume materials delivery support for a major construction programme across multiple sites.",
-    image: "/images/projects/Material supply deliveries.jfif",
+    image: "/images/Projects/Material supply deliveries.jfif",
     scope: ["Bulk supply", "Fleet coordination", "Site scheduling"],
     products: ["Cement", "Steel", "Quarry products"],
     services: ["Logistics", "Procurement support"],
@@ -149,7 +149,7 @@ const projects = [
     status: "Completed",
     description:
       "A completed building exterior reflecting careful finishing, durable materials and premium craftsmanship.",
-    image: "/images/projects/Completed building exterior.jfif",
+    image: "/images/Projects/Completed building exterior.jfif",
     scope: ["Facade works", "Finishing", "Quality control"],
     products: ["Roofing materials", "Finishing materials", "Safety equipment"],
     services: ["Construction completion", "Quality inspection"],
@@ -277,7 +277,7 @@ export function ProjectsShowcase() {
                 className="relative overflow-hidden rounded-[1.35rem]"
               >
                 <Image
-                  src="/images/projects/Commercial buildings.jfif"
+                  src="/images/Projects/Commercial buildings.jfif"
                   alt="Commercial project showcase"
                   width={900}
                   height={700}
@@ -462,7 +462,7 @@ export function ProjectsShowcase() {
 
       <section className="relative overflow-hidden py-16 text-white">
         <Image
-          src="/images/projects/Completed building exterior.jfif"
+          src="/images/Projects/Completed building exterior.jfif"
           alt="Completed building exterior"
           fill
           className="object-cover object-center"

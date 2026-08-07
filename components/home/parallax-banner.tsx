@@ -8,7 +8,7 @@ export function ParallaxBanner() {
   return (
     <section className="relative overflow-hidden py-12 text-white sm:py-16">
       <Image
-        src="/images/services/Commercial building under construction.jfif"
+        src="/images/Services/Commercial building under construction.jfif"
         alt="Commercial building under construction"
         fill
         className="object-cover object-center"
