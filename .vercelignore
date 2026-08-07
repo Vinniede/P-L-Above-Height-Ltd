@@ -3,9 +3,10 @@ node_modules
 .vscode
 .DS_Store
 coverage
-*.log
+\*.log
 
 # leave public and package files
-!public/**
+
+!public/\*\*
 !package.json
 !package-lock.json
