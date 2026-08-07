@@ -53,7 +53,7 @@ export function OverviewSection() {
           <div className="rounded-[2rem] border border-slate-200 bg-white p-3 shadow-[0_20px_70px_rgba(11,31,58,0.12)]">
             <div className="relative h-[420px] overflow-hidden rounded-[1.5rem]">
               <Image
-                src="/images/Professional%20team%20meeting%20at%20a%20construction%20site.jfif"
+                src="/images/professional-team-meeting-at-a-construction-site.jfif"
                 alt="Professional team meeting at a construction site"
                 fill
                 className="object-cover"
@@ -65,7 +65,7 @@ export function OverviewSection() {
           </div>
           <div className="absolute -left-4 top-8 w-40 overflow-hidden rounded-[1.3rem] border border-white/70 shadow-lg sm:w-48">
             <Image
-              src="/images/Engineers%20wearing%20PPE.jfif"
+              src="/images/engineers-wearing-ppe.jfif"
               alt="Engineers wearing PPE"
               width={240}
               height={180}
@@ -76,7 +76,7 @@ export function OverviewSection() {
           </div>
           <div className="absolute -bottom-4 right-0 w-40 overflow-hidden rounded-[1.3rem] border border-white/70 shadow-lg sm:w-48">
             <Image
-              src="/images/Modern%20office%20with%20architectural%20plans.jpg"
+              src="/images/modern-office-with-architectural-plans.jpg"
               alt="Modern office with architectural plans"
               width={240}
               height={180}

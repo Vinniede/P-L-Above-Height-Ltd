@@ -14,7 +14,7 @@ export function StatsBanner() {
   return (
     <section className="relative overflow-hidden py-12 text-white sm:py-16">
       <Image
-        src="/images/Projects/Completed%20building%20exterior.jfif"
+        src="/images/projects/completed-building-exterior.jfif"
         alt="Completed building exterior"
         fill
         className="object-cover object-center"

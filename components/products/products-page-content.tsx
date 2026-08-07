@@ -27,7 +27,7 @@ const categorySections = [
       "Reliable construction materials for residential, commercial and infrastructure projects.",
     description:
       "Premium cement, reinforcement, blocks and roofing solutions built for structural integrity and dependable delivery.",
-    image: "/images/Products/Premium%20cement%20bags.jfif",
+    image: "/images/products/premium-cement-bags.jfif",
     products: [
       {
         name: "Premium Cement Bags",
@@ -39,7 +39,7 @@ const categorySections = [
           "Infrastructure projects",
         ],
         features: ["High strength", "Reliable performance", "Quality assured"],
-        image: "/images/Products/Premium%20cement%20bags.jfif",
+        image: "/images/products/premium-cement-bags.jfif",
       },
       {
         name: "Reinforcement Bars",
@@ -51,7 +51,7 @@ const categorySections = [
           "Consistent grade",
           "Bulk availability",
         ],
-        image: "/images/Products/Reinforcement%20bars.jfif",
+        image: "/images/products/reinforcement-bars.jfif",
       },
       {
         name: "Building Blocks",
@@ -67,7 +67,7 @@ const categorySections = [
           "Efficient installation",
           "Long-lasting build",
         ],
-        image: "/images/Products/Building%20blocks.jfif",
+        image: "/images/products/building-blocks.jfif",
       },
       {
         name: "Roofing Materials",
@@ -83,7 +83,7 @@ const categorySections = [
           "Low maintenance",
           "Project-specific supply",
         ],
-        image: "/images/Products/Roofing%20materials.jfif",
+        image: "/images/products/roofing-materials.jfif",
       },
     ],
   },
@@ -94,7 +94,7 @@ const categorySections = [
       "High-grade steel products for structural and industrial performance.",
     description:
       "Engineered steel solutions supporting framing, reinforcement and heavy-duty fabrication.",
-    image: "/images/Products/Structural%20steel.jfif",
+    image: "/images/products/structural-steel.jfif",
     products: [
       {
         name: "Deformed Steel Bars",
@@ -110,7 +110,7 @@ const categorySections = [
           "Structural integrity",
           "Project-ready sizing",
         ],
-        image: "/images/Products/Deformed%20steel%20bars.jfif",
+        image: "/images/products/deformed-steel-bars.jfif",
       },
       {
         name: "Structural Steel",
@@ -122,7 +122,7 @@ const categorySections = [
           "Support systems",
         ],
         features: ["Fabrication-ready", "Reliable grade", "Large-scale supply"],
-        image: "/images/Products/Structural%20steel.jfif",
+        image: "/images/products/structural-steel.jfif",
       },
       {
         name: "Steel Beams",
@@ -134,7 +134,7 @@ const categorySections = [
           "Precision fabrication",
           "Long-span capability",
         ],
-        image: "/images/Products/Steel%20beams.jfif",
+        image: "/images/products/steel-beams.jfif",
       },
       {
         name: "Steel Pipes",
@@ -150,7 +150,7 @@ const categorySections = [
           "Multi-use capability",
           "Consistent availability",
         ],
-        image: "/images/Products/Steel%20pipes.jfif",
+        image: "/images/products/steel-pipes.jfif",
       },
     ],
   },
@@ -161,7 +161,7 @@ const categorySections = [
       "Quarry materials supplied for foundation works, road-building and civil infrastructure.",
     description:
       "Durable aggregates and quarry outputs that support high-volume civil and industrial delivery.",
-    image: "/images/Products/Ballast.jfif",
+    image: "/images/products/ballast.jfif",
     products: [
       {
         name: "Ballast",
@@ -173,7 +173,7 @@ const categorySections = [
           "Foundation support",
         ],
         features: ["Reliable grading", "High durability", "Bulk supply"],
-        image: "/images/Products/Ballast.jfif",
+        image: "/images/products/ballast.jfif",
       },
       {
         name: "Hardcore",
@@ -185,7 +185,7 @@ const categorySections = [
           "Civil works",
         ],
         features: ["Stable compaction", "Strong base", "Project-scale supply"],
-        image: "/images/Products/Hardcore.jfif",
+        image: "/images/products/hardcore.jfif",
       },
       {
         name: "Machine-cut Stones",
@@ -197,7 +197,7 @@ const categorySections = [
           "Premium finish",
           "Consistent quality",
         ],
-        image: "/images/Products/Machine-cut%20stones.jfif",
+        image: "/images/products/machine-cut-stones.jfif",
       },
       {
         name: "Sand",
@@ -205,7 +205,7 @@ const categorySections = [
           "Clean, dependable sand for concrete mixes, bedding and finishing applications.",
         applications: ["Concrete production", "Masonry", "Landscaping"],
         features: ["Clean grading", "Consistent quality", "Ready dispatch"],
-        image: "/images/Products/Sand.jfif",
+        image: "/images/products/sand.jfif",
       },
     ],
   },
@@ -216,7 +216,7 @@ const categorySections = [
       "Certified PPE and workplace protection for active, compliant job sites.",
     description:
       "Protective equipment designed for productivity, confidence and safe operations.",
-    image: "/images/Products/Helmets.jfif",
+    image: "/images/products/helmets.jfif",
     products: [
       {
         name: "Safety Helmets",
@@ -228,7 +228,7 @@ const categorySections = [
           "Maintenance work",
         ],
         features: ["Impact protection", "Comfort fit", "Site-ready compliance"],
-        image: "/images/Products/Helmets.jfif",
+        image: "/images/products/helmets.jfif",
       },
       {
         name: "Industrial Gloves",
@@ -240,7 +240,7 @@ const categorySections = [
           "Routine maintenance",
         ],
         features: ["Grip support", "Durable finish", "All-day comfort"],
-        image: "/images/Products/Gloves.jfif",
+        image: "/images/products/gloves.jfif",
       },
       {
         name: "Safety Boots",
@@ -252,7 +252,7 @@ const categorySections = [
           "Protective support",
           "Work-ready design",
         ],
-        image: "/images/Products/Boots.jfif",
+        image: "/images/products/boots.jfif",
       },
       {
         name: "Safety Goggles",
@@ -260,7 +260,7 @@ const categorySections = [
           "Precision eye protection built for visibility, comfort and field performance.",
         applications: ["Cutting work", "Machinery areas", "Inspection tasks"],
         features: ["Clear optics", "Reliable fit", "Worksite durability"],
-        image: "/images/Products/Safety%20goggles.jfif",
+        image: "/images/products/safety-goggles.jfif",
       },
       {
         name: "Reflective Jackets",
@@ -268,7 +268,7 @@ const categorySections = [
           "High-visibility wear suitable for operations where visibility and protection matter.",
         applications: ["Night work", "Traffic zones", "Logistics operations"],
         features: ["High visibility", "Weather-ready", "Professional finish"],
-        image: "/images/Products/Reflective%20jackets.jpg",
+        image: "/images/products/reflective-jackets.jpg",
       },
     ],
   },
@@ -279,7 +279,7 @@ const categorySections = [
       "Professional tools for precision work, maintenance and workshop productivity.",
     description:
       "Engineered equipment for efficient field execution and dependable workshop performance.",
-    image: "/images/Products/Measuring%20tools.jfif",
+    image: "/images/products/measuring-tools.jfif",
     products: [
       {
         name: "Angle Grinders",
@@ -287,7 +287,7 @@ const categorySections = [
           "High-performance grinders for cutting, finishing and material preparation tasks.",
         applications: ["Fabrication", "Metalwork", "Site finishing"],
         features: ["Efficient operation", "Durable build", "Precision control"],
-        image: "/images/Products/Angle%20grinders.jfif",
+        image: "/images/products/angle-grinders.jfif",
       },
       {
         name: "Precision Measuring Tools",
@@ -295,7 +295,7 @@ const categorySections = [
           "Accurate measurement tools that support quality control and field accuracy.",
         applications: ["Inspection", "Layout planning", "Engineering checks"],
         features: ["High accuracy", "Professional grade", "Easy handling"],
-        image: "/images/Products/Measuring%20tools.jfif",
+        image: "/images/products/measuring-tools.jfif",
       },
       {
         name: "Drilling Machines",
@@ -307,7 +307,7 @@ const categorySections = [
           "Easy operation",
           "Built for durability",
         ],
-        image: "/images/Products/Drilling%20machines.jfif",
+        image: "/images/products/drilling-machines.jfif",
       },
       {
         name: "Power Tools",
@@ -319,7 +319,7 @@ const categorySections = [
           "Reliable operation",
           "Broad application",
         ],
-        image: "/images/Products/Power%20tools.jfif",
+        image: "/images/products/power-tools.jfif",
       },
     ],
   },
@@ -330,7 +330,7 @@ const categorySections = [
       "Industrial welding solutions for fabrication integrity and dependable output.",
     description:
       "Equipment and consumables supporting professional welding environments with precision and confidence.",
-    image: "/images/Products/Welding%20machine.jfif",
+    image: "/images/products/welding-machine.jfif",
     products: [
       {
         name: "Welding Machine",
@@ -342,7 +342,7 @@ const categorySections = [
           "Professional performance",
           "Project-ready",
         ],
-        image: "/images/Products/Welding%20machine.jfif",
+        image: "/images/products/welding-machine.jfif",
       },
       {
         name: "Welding Rods",
@@ -354,7 +354,7 @@ const categorySections = [
           "Structural repairs",
         ],
         features: ["Strong fusion", "Consistent quality", "Wide compatibility"],
-        image: "/images/Products/Welding%20rods.jfif",
+        image: "/images/products/welding-rods.jfif",
       },
       {
         name: "Welding Mask",
@@ -362,7 +362,7 @@ const categorySections = [
           "Essential protection for safer welding operations with a clear, focused field of view.",
         applications: ["Fabrication", "Repair work", "Site welding"],
         features: ["Eye protection", "Comfort fit", "Durable build"],
-        image: "/images/Products/Welding%20mask.jfif",
+        image: "/images/products/welding-mask.jfif",
       },
       {
         name: "Gas Cylinders",
@@ -374,7 +374,7 @@ const categorySections = [
           "Workshop support",
         ],
         features: ["Safe handling", "Reliable supply", "Industrial-grade"],
-        image: "/images/Products/Gas%20cylinders.jfif",
+        image: "/images/products/gas-cylinders.jfif",
       },
     ],
   },
@@ -453,7 +453,7 @@ export function ProductsPageContent() {
           playsInline
           className="absolute inset-0 h-full w-full object-cover"
         >
-          <source src="/images/P%20%26%20L%20Above%20Heights%20Ltd.mp4" type="video/mp4" />
+          <source src="/images/p-and-l-above-heights-ltd.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-slate-950/60" />
         <div
@@ -541,7 +541,7 @@ export function ProductsPageContent() {
                   className="relative overflow-hidden rounded-[1.35rem]"
                 >
                   <Image
-                    src="/images/Services/Construction%20materials%20display.jfif"
+                    src="/images/services/construction-materials-display.jfif"
                     alt="Construction materials display"
                     width={900}
                     height={700}
@@ -659,7 +659,7 @@ export function ProductsPageContent() {
             className="overflow-hidden rounded-[2.5rem] border border-slate-200 shadow-soft"
           >
             <Image
-              src="/images/Professional%20team%20meeting%20at%20a%20construction%20site.jfif"
+              src="/images/professional-team-meeting-at-a-construction-site.jfif"
               alt="Professional team reviewing site requirements"
               width={900}
               height={700}
@@ -836,7 +836,7 @@ export function ProductsPageContent() {
 
       <section className="relative overflow-hidden py-16 text-white">
         <Image
-          src="/images/Services/Commercial%20building%20under%20construction.jfif"
+          src="/images/services/commercial-building-under-construction.jfif"
           alt="Warehouse or fabrication backdrop"
           fill
           className="object-cover object-center"

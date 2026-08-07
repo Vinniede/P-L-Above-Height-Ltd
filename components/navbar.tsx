@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { usePathname } from "next/navigation";
 import type { Route } from "next";
@@ -55,7 +55,7 @@ export function Navbar() {
             className="relative flex h-16 w-16 flex-shrink-0 items-center justify-center overflow-hidden rounded-full bg-white shadow-sm"
           >
             <Image
-              src="/images/P%20%26%20L%20logo.jpeg"
+              src="/images/p-and-l-logo.jpeg"
               alt="P & L logo"
               fill
               className="object-contain p-1"
@@ -115,44 +115,44 @@ export function Navbar() {
         className={`absolute inset-x-0 bottom-0 h-1 ${scrolled ? "opacity-100" : "opacity-60"} bg-gradient-to-r from-transparent via-[#F58220] to-transparent transition-opacity duration-300`}
       />
 
-      {mobileOpen && (
-        <motion.aside
-          initial={{ x: "100%" }}
-          animate={{ x: 0 }}
-          transition={{ type: "spring", stiffness: 260, damping: 24 }}
-          className="fixed inset-y-0 right-0 z-50 w-full max-w-[380px] overflow-hidden rounded-l-[28px] border-l border-white/10 bg-[#0B1F3A]/95 p-6 shadow-[0_30px_80px_rgba(0,0,0,0.32)] backdrop-blur-xl lg:hidden"
-        >
-          <div className="flex items-center justify-between">
-            <div>
-              <p className="text-sm uppercase tracking-[0.35em] text-brand-amber">
-                Menu
-              </p>
-              <h2 className="mt-2 font-display text-xl font-semibold text-white">
-                Explore P & L Above Heights
-              </h2>
-            </div>
-            <button
-              type="button"
+      <div
+        className={`fixed inset-0 z-40 bg-slate-950/70 backdrop-blur-sm transition-opacity duration-300 lg:hidden ${mobileOpen ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0"}`}
+        onClick={() => setMobileOpen(false)}
+      />
+      <aside
+        className={`fixed inset-y-0 right-0 z-50 w-full max-w-[380px] overflow-hidden rounded-l-[28px] border-l border-white/10 bg-[#0B1F3A]/95 p-6 shadow-[0_30px_80px_rgba(0,0,0,0.32)] backdrop-blur-xl transition-transform duration-300 lg:hidden ${mobileOpen ? "translate-x-0" : "translate-x-full"}`}
+        aria-hidden={!mobileOpen}
+      >
+        <div className="flex items-center justify-between">
+          <div>
+            <p className="text-sm uppercase tracking-[0.35em] text-brand-amber">
+              Menu
+            </p>
+            <h2 className="mt-2 font-display text-xl font-semibold text-white">
+              Explore P & L Above Heights
+            </h2>
+          </div>
+          <button
+            type="button"
+            onClick={() => setMobileOpen(false)}
+            className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-white/10 text-white transition hover:bg-white/20"
+          >
+            <X className="h-5 w-5" />
+          </button>
+        </div>
+        <div className="mt-8 space-y-3">
+          {mobileMenuItems.map((item) => (
+            <Link
+              key={item.label}
+              href={item.href}
               onClick={() => setMobileOpen(false)}
-              className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-white/10 text-white transition hover:bg-white/20"
+              className="flex w-full items-center rounded-[18px] border border-white/10 bg-white/5 px-4 py-4 text-sm font-semibold text-white transition hover:border-brand-blue hover:bg-white/10"
             >
-              <X className="h-5 w-5" />
-            </button>
-          </div>
-          <div className="mt-8 space-y-3">
-            {mobileMenuItems.map((item) => (
-              <Link
-                key={item.label}
-                href={item.href}
-                onClick={() => setMobileOpen(false)}
-                className="flex w-full items-center rounded-[18px] border border-white/10 bg-white/5 px-4 py-4 text-sm font-semibold text-white transition hover:border-brand-blue hover:bg-white/10"
-              >
-                {item.label}
-              </Link>
-            ))}
-          </div>
-        </motion.aside>
-      )}
+              {item.label}
+            </Link>
+          ))}
+        </div>
+      </aside>
     </header>
   );
 }

@@ -34,7 +34,7 @@ export default function AboutPage() {
           playsInline
           className="absolute inset-0 h-full w-full object-cover"
         >
-          <source src="/images/P%20%26%20L%20Above%20Heights%20Ltd.mp4" type="video/mp4" />
+          <source src="/images/p-and-l-above-heights-ltd.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-slate-950/70" />
         <div className="relative container-shell py-16 lg:py-20">
