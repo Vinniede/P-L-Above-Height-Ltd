@@ -20,42 +20,42 @@ const services = [
     title: "Construction Works",
     description:
       "Robust execution for civil, structural and commercial construction engagements.",
-    image: "/images/Services/Commercial building under construction.jfif",
+    image: "/images/Services/Commercial%20building%20under%20construction.jfif",
   },
   {
     icon: Layers3,
     title: "Building Materials",
     description:
       "Premium materials sourced for durability, efficiency and dependable project delivery.",
-    image: "/images/Services/Construction materials display.jfif",
+    image: "/images/Services/Construction%20materials%20display.jfif",
   },
   {
     icon: HardHat,
     title: "Quarry Products",
     description:
       "Quality aggregates and quarry materials for infrastructure and industrial works.",
-    image: "/images/Services/Stone loading with excavator.jfif",
+    image: "/images/Services/Stone%20loading%20with%20excavator.jfif",
   },
   {
     icon: Wrench,
     title: "Engineering Supplies",
     description:
       "Specialised tools and components that support efficient installations and repairs.",
-    image: "/images/Services/Professional workshop.jfif",
+    image: "/images/Services/Professional%20workshop.jfif",
   },
   {
     icon: ShieldCheck,
     title: "Safety Equipment",
     description:
       "Certified safety products that strengthen site protection and compliance.",
-    image: "/images/Services/Workers wearing complete PPE.jfif",
+    image: "/images/Services/Workers%20wearing%20complete%20PPE.jfif",
   },
   {
     icon: Sparkles,
     title: "Welding Consumables",
     description:
       "High-performance consumables for fabrication and repair projects.",
-    image: "/images/Services/Welder with sparks.jfif",
+    image: "/images/Services/Welder%20with%20sparks.jfif",
   },
 ];
 

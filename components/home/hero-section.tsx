@@ -13,10 +13,10 @@ import {
 } from "lucide-react";
 
 const slides = [
-  "/images/Tower cranes and high-rise construction.jfif",
-  "/images/Engineers discussing blueprints on-site.jfif",
-  "/images/Heavy machinery in operation.jfif",
-  "/images/Drone view of a large construction site at sunrise.jfif",
+  "/images/Tower%20cranes%20and%20high-rise%20construction.jfif",
+  "/images/Engineers%20discussing%20blueprints%20on-site.jfif",
+  "/images/Heavy%20machinery%20in%20operation.jfif",
+  "/images/Drone%20view%20of%20a%20large%20construction%20site%20at%20sunrise.jfif",
 ];
 
 export function HeroSection() {

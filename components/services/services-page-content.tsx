@@ -29,18 +29,18 @@ const serviceHighlights = [
 const materialsCards = [
   {
     title: "Cement & Binders",
-    image: "/images/Services/Cement bags stacked in warehouse.jfif",
+    image: "/images/Services/Cement%20bags%20stacked%20in%20warehouse.jfif",
     description:
       "Reliable bulk supply for structural and finishing applications.",
   },
   {
     title: "Steel Reinforcement",
-    image: "/images/Services/Reinforcement steel bars.jfif",
+    image: "/images/Services/Reinforcement%20steel%20bars.jfif",
     description: "High-strength steel solutions for structural integrity.",
   },
   {
     title: "Blocks & Bricks",
-    image: "/images/Services/Blocks and bricks.jfif",
+    image: "/images/Services/Blocks%20and%20bricks.jfif",
     description: "Durable masonry materials for rapid project execution.",
   },
 ];
@@ -49,33 +49,33 @@ const engineeringFeatures = [
   {
     title: "Industrial Engineering Tools",
     icon: Wrench,
-    image: "/images/Services/Industrial engineering tools.jfif",
+    image: "/images/Services/Industrial%20engineering%20tools.jfif",
   },
   {
     title: "Precision Measuring Equipment",
     icon: Layers3,
-    image: "/images/Services/Precision measuring equipment.jfif",
+    image: "/images/Services/Precision%20measuring%20equipment.jfif",
   },
   {
     title: "Professional Workshop",
     icon: Factory,
-    image: "/images/Services/Professional workshop.jfif",
+    image: "/images/Services/Professional%20workshop.jfif",
   },
 ];
 
 const safetyFeatures = [
-  { title: "PPE Supply", image: "/images/Services/Safety helmets.jfif" },
+  { title: "PPE Supply", image: "/images/Services/Safety%20helmets.jfif" },
   {
     title: "Reflective Jackets",
-    image: "/images/Services/Reflective jackets.jpg",
+    image: "/images/Services/Reflective%20jackets.jpg",
   },
   {
     title: "Safety Harnesses",
-    image: "/images/Services/Safety harnesses.jfif",
+    image: "/images/Services/Safety%20harnesses.jfif",
   },
   {
     title: "Inspection Ready",
-    image: "/images/Services/Industrial safety inspection.jfif",
+    image: "/images/Services/Industrial%20safety%20inspection.jfif",
   },
 ];
 
@@ -92,42 +92,42 @@ const industries = [
   {
     title: "Construction",
     label: "Construction",
-    image: "/images/Industries/Modern commercial construction site.jfif",
+    image: "/images/Industries/Modern%20commercial%20construction%20site.jfif",
     description:
       "Residential, commercial and civil construction solutions designed for projects of every scale.",
   },
   {
     title: "Manufacturing",
     label: "Industrial",
-    image: "/images/Industries/Industrial factory interior.jfif",
+    image: "/images/Industries/Industrial%20factory%20interior.jfif",
     description:
       "Reliable engineering products, industrial tools and safety equipment supporting modern manufacturing facilities.",
   },
   {
     title: "Government",
     label: "Public Works",
-    image: "/images/Industries/Road or public infrastructure project.jfif",
+    image: "/images/Industries/Road%20or%20public%20infrastructure%20project.jfif",
     description:
       "Supplying compliant construction materials and engineering solutions for public infrastructure and institutional projects.",
   },
   {
     title: "Infrastructure",
     label: "Civil Works",
-    image: "/images/Industries/Bridge or highway construction.jfif",
+    image: "/images/Industries/Bridge%20or%20highway%20construction.jfif",
     description:
       "Supporting roads, bridges and large-scale infrastructure developments with quality materials and dependable execution.",
   },
   {
     title: "Commercial",
     label: "Business",
-    image: "/images/Industries/Office building construction.jpg",
+    image: "/images/Industries/Office%20building%20construction.jpg",
     description:
       "Professional construction and engineering solutions for offices, retail spaces and commercial developments.",
   },
   {
     title: "Real Estate",
     label: "Development",
-    image: "/images/Industries/Residential housing development.jfif",
+    image: "/images/Industries/Residential%20housing%20development.jfif",
     description:
       "Supplying premium materials and construction services for residential housing and mixed-use developments.",
   },
@@ -144,7 +144,7 @@ export function ServicesPageContent() {
           playsInline
           className="absolute inset-0 h-full w-full object-cover"
         >
-          <source src="/images/P & L Above Heights Ltd.mp4" type="video/mp4" />
+          <source src="/images/P%20%26%20L%20Above%20Heights%20Ltd.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-slate-950/60" />
         <div
@@ -232,7 +232,7 @@ export function ServicesPageContent() {
                   className="relative overflow-hidden rounded-[1.35rem]"
                 >
                   <Image
-                    src="/images/Services/Commercial building under construction.jfif"
+                    src="/images/Services/Commercial%20building%20under%20construction.jfif"
                     alt="Commercial building under construction"
                     width={900}
                     height={700}
@@ -246,7 +246,7 @@ export function ServicesPageContent() {
                   </div>
                   <div className="absolute right-4 top-4 flex items-center gap-2 rounded-full border border-white/30 bg-white/95 px-3 py-2 shadow-sm">
                     <Image
-                      src="/images/P & L logo.jpeg"
+                      src="/images/P%20%26%20L%20logo.jpeg"
                       alt="P & L Above Heights logo"
                       width={28}
                       height={28}
@@ -356,7 +356,7 @@ export function ServicesPageContent() {
             className="overflow-hidden rounded-[2.5rem] border border-slate-200 shadow-soft"
           >
             <Image
-              src="/images/Services/Professional workshop.jfif"
+              src="/images/Services/Professional%20workshop.jfif"
               alt="Professional workshop"
               width={900}
               height={700}
@@ -373,7 +373,7 @@ export function ServicesPageContent() {
         className="relative overflow-hidden bg-white py-16"
       >
         <Image
-          src="/images/Services/Commercial building under construction.jfif"
+          src="/images/Services/Commercial%20building%20under%20construction.jfif"
           alt="Commercial building under construction"
           fill
           className="absolute inset-0 object-cover object-center"
@@ -392,7 +392,7 @@ export function ServicesPageContent() {
               className="overflow-hidden rounded-[2.5rem] border border-slate-200 bg-brand-bg p-5 shadow-soft"
             >
               <Image
-                src="/images/Services/Commercial building under construction.jfif"
+                src="/images/Services/Commercial%20building%20under%20construction.jfif"
                 alt="Commercial building under construction"
                 width={900}
                 height={700}
@@ -403,7 +403,7 @@ export function ServicesPageContent() {
               <div className="mt-5 grid gap-4 md:grid-cols-2">
                 <div className="overflow-hidden rounded-[1.6rem] border border-slate-200 bg-white">
                   <Image
-                    src="/images/Services/Reinforced concrete works.png"
+                    src="/images/Services/Reinforced%20concrete%20works.png"
                     alt="Reinforced concrete works"
                     width={500}
                     height={360}
@@ -414,7 +414,7 @@ export function ServicesPageContent() {
                 </div>
                 <div className="overflow-hidden rounded-[1.6rem] border border-slate-200 bg-white">
                   <Image
-                    src="/images/Services/Structural steel installation.jfif"
+                    src="/images/Services/Structural%20steel%20installation.jfif"
                     alt="Structural steel installation"
                     width={500}
                     height={360}
@@ -530,7 +530,7 @@ export function ServicesPageContent() {
 
       <section className="relative overflow-hidden bg-white py-16">
         <Image
-          src="/images/Services/Stone loading with excavator.jfif"
+          src="/images/Services/Stone%20loading%20with%20excavator.jfif"
           alt="Stone loading with excavator"
           fill
           className="absolute inset-0 object-cover object-center"
@@ -576,7 +576,7 @@ export function ServicesPageContent() {
           >
             <div className="overflow-hidden rounded-[2.5rem] border border-slate-200 bg-brand-bg p-4 shadow-soft">
               <Image
-                src="/images/Services/Stone loading with excavator.jfif"
+                src="/images/Services/Stone%20loading%20with%20excavator.jfif"
                 alt="Stone loading with excavator"
                 width={900}
                 height={700}
@@ -588,7 +588,7 @@ export function ServicesPageContent() {
             <div className="flex gap-4">
               <div className="overflow-hidden rounded-full border-4 border-white shadow-soft">
                 <Image
-                  src="/images/Services/Quarry crushing plant.jfif"
+                  src="/images/Services/Quarry%20crushing%20plant.jfif"
                   alt="Quarry crushing plant"
                   width={180}
                   height={180}
@@ -599,7 +599,7 @@ export function ServicesPageContent() {
               </div>
               <div className="overflow-hidden rounded-full border-4 border-white shadow-soft">
                 <Image
-                  src="/images/Services/Ballast stockpiles.jfif"
+                  src="/images/Services/Ballast%20stockpiles.jfif"
                   alt="Ballast stockpiles"
                   width={180}
                   height={180}
@@ -623,7 +623,7 @@ export function ServicesPageContent() {
             className="overflow-hidden rounded-[2.5rem] border border-slate-200 bg-white p-4 shadow-soft"
           >
             <Image
-              src="/images/Services/Precision measuring equipment.jfif"
+              src="/images/Services/Precision%20measuring%20equipment.jfif"
               alt="Precision measuring equipment"
               width={900}
               height={700}
@@ -682,7 +682,7 @@ export function ServicesPageContent() {
 
       <section className="relative overflow-hidden py-16 text-white">
         <Image
-          src="/images/Services/Welder with sparks.jfif"
+          src="/images/Services/Welder%20with%20sparks.jfif"
           alt="Welder with sparks"
           fill
           className="absolute inset-0 object-cover object-center"
@@ -748,7 +748,7 @@ export function ServicesPageContent() {
             >
               <div className="overflow-hidden rounded-[2.5rem] border border-white/20 bg-white/10 p-4 shadow-2xl backdrop-blur-xl">
                 <Image
-                  src="/images/Services/Welding electrodes.jfif"
+                  src="/images/Services/Welding%20electrodes.jfif"
                   alt="Welding electrodes"
                   width={900}
                   height={700}
@@ -759,7 +759,7 @@ export function ServicesPageContent() {
               </div>
               <div className="overflow-hidden rounded-[2.5rem] border border-white/20 bg-white/10 p-4 shadow-2xl backdrop-blur-xl">
                 <Image
-                  src="/images/Services/Fabrication workshop.jfif"
+                  src="/images/Services/Fabrication%20workshop.jfif"
                   alt="Fabrication workshop"
                   width={900}
                   height={700}
@@ -783,7 +783,7 @@ export function ServicesPageContent() {
             className="overflow-hidden rounded-[2.5rem] border border-slate-200 bg-brand-bg p-4 shadow-soft"
           >
             <Image
-              src="/images/Services/Workers wearing complete PPE.jfif"
+              src="/images/Services/Workers%20wearing%20complete%20PPE.jfif"
               alt="Workers wearing complete PPE"
               width={900}
               height={700}
@@ -927,7 +927,7 @@ export function ServicesPageContent() {
 
       <section className="relative overflow-hidden py-14 text-white">
         <Image
-          src="/images/Services/Commercial building under construction.jfif"
+          src="/images/Services/Commercial%20building%20under%20construction.jfif"
           alt="Commercial building under construction"
           fill
           className="absolute inset-0 object-cover object-center"

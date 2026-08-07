@@ -42,7 +42,7 @@ export function ProcessSection() {
     <section className="relative overflow-hidden py-12 sm:py-16">
       <div className="absolute inset-0">
         <Image
-          src="/images/Projects/High-rise buildings.jfif"
+          src="/images/Projects/High-rise%20buildings.jfif"
           alt="Engineering process background"
           fill
           className="object-cover object-center"

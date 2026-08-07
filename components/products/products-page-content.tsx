@@ -453,7 +453,7 @@ export function ProductsPageContent() {
           playsInline
           className="absolute inset-0 h-full w-full object-cover"
         >
-          <source src="/images/P & L Above Heights Ltd.mp4" type="video/mp4" />
+          <source src="/images/P%20%26%20L%20Above%20Heights%20Ltd.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-slate-950/60" />
         <div
@@ -541,7 +541,7 @@ export function ProductsPageContent() {
                   className="relative overflow-hidden rounded-[1.35rem]"
                 >
                   <Image
-                    src="/images/Services/Construction materials display.jfif"
+                    src="/images/Services/Construction%20materials%20display.jfif"
                     alt="Construction materials display"
                     width={900}
                     height={700}
@@ -659,7 +659,7 @@ export function ProductsPageContent() {
             className="overflow-hidden rounded-[2.5rem] border border-slate-200 shadow-soft"
           >
             <Image
-              src="/images/Professional team meeting at a construction site.jfif"
+              src="/images/Professional%20team%20meeting%20at%20a%20construction%20site.jfif"
               alt="Professional team reviewing site requirements"
               width={900}
               height={700}
@@ -836,7 +836,7 @@ export function ProductsPageContent() {
 
       <section className="relative overflow-hidden py-16 text-white">
         <Image
-          src="/images/Services/Commercial building under construction.jfif"
+          src="/images/Services/Commercial%20building%20under%20construction.jfif"
           alt="Warehouse or fabrication backdrop"
           fill
           className="object-cover object-center"

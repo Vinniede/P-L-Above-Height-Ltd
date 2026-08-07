@@ -11,21 +11,21 @@ const projects = [
     title: "High-Rise Development",
     location: "Nairobi",
     category: "Buildings",
-    image: "/images/Projects/High-rise buildings.jfif",
+    image: "/images/Projects/High-rise%20buildings.jfif",
     height: "h-72",
   },
   {
     title: "Residential Apartments",
     location: "Kisumu",
     category: "Residential",
-    image: "/images/Projects/Residential apartments.jfif",
+    image: "/images/Projects/Residential%20apartments.jfif",
     height: "h-80",
   },
   {
     title: "Commercial Office Tower",
     location: "Mombasa",
     category: "Commercial",
-    image: "/images/Projects/Commercial buildings.jfif",
+    image: "/images/Projects/Commercial%20buildings.jfif",
     height: "h-72",
   },
   {
@@ -46,7 +46,7 @@ const projects = [
     title: "Factory Construction",
     location: "Thika",
     category: "Industrial",
-    image: "/images/Projects/Factory construction.jfif",
+    image: "/images/Projects/Factory%20construction.jfif",
     height: "h-72",
   },
 ];

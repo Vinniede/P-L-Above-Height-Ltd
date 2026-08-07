@@ -55,7 +55,7 @@ export function Navbar() {
             className="relative flex h-16 w-16 flex-shrink-0 items-center justify-center overflow-hidden rounded-full bg-white shadow-sm"
           >
             <Image
-              src="/images/P & L logo.jpeg"
+              src="/images/P%20%26%20L%20logo.jpeg"
               alt="P & L logo"
               fill
               className="object-contain p-1"

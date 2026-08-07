@@ -35,7 +35,7 @@ const projects = [
     status: "Completed",
     description:
       "A premium mixed-use tower delivered with precision coordination, quality materials and structural execution.",
-    image: "/images/Projects/High-rise buildings.jfif",
+    image: "/images/Projects/High-rise%20buildings.jfif",
     scope: ["Structural works", "Material supply", "Site coordination"],
     products: ["Steel reinforcement", "Cement", "Safety equipment"],
     services: ["Construction delivery", "Procurement support"],
@@ -51,7 +51,7 @@ const projects = [
     status: "Completed",
     description:
       "A modern apartment complex completed with reliable supply support and refined execution.",
-    image: "/images/Projects/Residential apartments.jfif",
+    image: "/images/Projects/Residential%20apartments.jfif",
     scope: [
       "Residential construction",
       "Finishing works",
@@ -71,7 +71,7 @@ const projects = [
     status: "Completed",
     description:
       "A high-standard commercial build completed with durable materials and efficient delivery.",
-    image: "/images/Projects/Commercial buildings.jfif",
+    image: "/images/Projects/Commercial%20buildings.jfif",
     scope: ["Commercial fit-out", "Structural supply", "Site management"],
     products: ["Steel products", "Engineering tools", "Welding consumables"],
     services: ["Construction delivery", "Project coordination"],
@@ -117,7 +117,7 @@ const projects = [
     status: "Completed",
     description:
       "A purpose-built factory completed with durable infrastructure and coordinated industrial supply.",
-    image: "/images/Projects/Factory construction.jfif",
+    image: "/images/Projects/Factory%20construction.jfif",
     scope: ["Factory shell", "Process support", "Safety supply"],
     products: ["Steel products", "PPE", "Engineering tools"],
     services: ["Construction delivery", "Industrial supply"],
@@ -132,7 +132,7 @@ const projects = [
     status: "Ongoing",
     description:
       "High-volume materials delivery support for a major construction programme across multiple sites.",
-    image: "/images/Projects/Material supply deliveries.jfif",
+    image: "/images/Projects/Material%20supply%20deliveries.jfif",
     scope: ["Bulk supply", "Fleet coordination", "Site scheduling"],
     products: ["Cement", "Steel", "Quarry products"],
     services: ["Logistics", "Procurement support"],
@@ -149,7 +149,7 @@ const projects = [
     status: "Completed",
     description:
       "A completed building exterior reflecting careful finishing, durable materials and premium craftsmanship.",
-    image: "/images/Projects/Completed building exterior.jfif",
+    image: "/images/Projects/Completed%20building%20exterior.jfif",
     scope: ["Facade works", "Finishing", "Quality control"],
     products: ["Roofing materials", "Finishing materials", "Safety equipment"],
     services: ["Construction completion", "Quality inspection"],
@@ -211,7 +211,7 @@ export function ProjectsShowcase() {
           playsInline
           className="absolute inset-0 h-full w-full object-cover"
         >
-          <source src="/images/P & L Above Heights Ltd.mp4" type="video/mp4" />
+          <source src="/images/P%20%26%20L%20Above%20Heights%20Ltd.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-slate-950/60" />
         <div
@@ -277,7 +277,7 @@ export function ProjectsShowcase() {
                 className="relative overflow-hidden rounded-[1.35rem]"
               >
                 <Image
-                  src="/images/Projects/Commercial buildings.jfif"
+                  src="/images/Projects/Commercial%20buildings.jfif"
                   alt="Commercial project showcase"
                   width={900}
                   height={700}
@@ -462,7 +462,7 @@ export function ProjectsShowcase() {
 
       <section className="relative overflow-hidden py-16 text-white">
         <Image
-          src="/images/Projects/Completed building exterior.jfif"
+          src="/images/Projects/Completed%20building%20exterior.jfif"
           alt="Completed building exterior"
           fill
           className="object-cover object-center"

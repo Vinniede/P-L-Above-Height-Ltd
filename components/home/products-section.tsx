@@ -11,13 +11,13 @@ const products = [
     title: "Construction Materials",
     description:
       "Premium cement, reinforcement and building materials for dependable structural delivery.",
-    image: "/images/Products/Premium cement bags.jfif",
+    image: "/images/Products/Premium%20cement%20bags.jfif",
   },
   {
     title: "Steel Products",
     description:
       "Structural steel and reinforcement products built for strength, integrity and performance.",
-    image: "/images/Products/Structural steel.jfif",
+    image: "/images/Products/Structural%20steel.jfif",
   },
   {
     title: "Quarry Products",
@@ -35,13 +35,13 @@ const products = [
     title: "Engineering Tools",
     description:
       "Professional tools for workshop use, field execution and operational precision.",
-    image: "/images/Products/Measuring tools.jfif",
+    image: "/images/Products/Measuring%20tools.jfif",
   },
   {
     title: "Welding Consumables",
     description:
       "Dependable welding machines, rods and accessories for fabrication environments.",
-    image: "/images/Products/Welding machine.jfif",
+    image: "/images/Products/Welding%20machine.jfif",
   },
 ];
 
