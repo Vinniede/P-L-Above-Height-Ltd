@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "Premium construction, engineering, and industrial supply partner in Kenya delivering quality projects and reliable logistics.",
   metadataBase: new URL("https://example.com"),
   alternates: { canonical: "https://example.com" },
-  icons: "/images/Favicon.ico",
+  icons: "/images/favicon.ico",
   openGraph: {
     title: "P & L Above Heights Ltd",
     description:
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     url: "https://example.com",
     images: [
       {
-        url: "/images/P%20%26%20L%20Above%20Heights%20Logo.jpg",
+        url: "/images/p-and-l-logo.jpeg",
         width: 1200,
         height: 630,
         alt: "P & L Above Heights Ltd logo",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "P & L Above Heights Ltd",
     description:
       "Premium construction, engineering, and industrial supply partner in Kenya.",
-    images: ["/images/P%20%26%20L%20Above%20Heights%20Logo.jpg"],
+    images: ["/images/p-and-l-logo.jpeg"],
   },
 };
 
