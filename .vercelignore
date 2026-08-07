@@ -1,0 +1,11 @@
+node_modules
+.next
+.vscode
+.DS_Store
+coverage
+*.log
+
+# leave public and package files
+!public/**
+!package.json
+!package-lock.json
