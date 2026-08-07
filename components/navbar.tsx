@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { usePathname } from "next/navigation";
 import type { Route } from "next";
+import { createPortal } from "react-dom";
 
 const primaryLinks: Array<{ href: Route; label: string }> = [
   { href: "/" as Route, label: "Home" },
@@ -15,11 +16,6 @@ const primaryLinks: Array<{ href: Route; label: string }> = [
   { href: "/products" as Route, label: "Products" },
   { href: "/projects" as Route, label: "Projects" },
   { href: "/contact" as Route, label: "Contact" },
-];
-
-const mobileMenuItems = [
-  ...primaryLinks,
-  { href: "/request-quotation" as Route, label: "Request Quotation" },
 ];
 
 function isActive(href: string, pathname: string) {
@@ -31,6 +27,11 @@ export function Navbar() {
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     const handler = () => setScrolled(window.scrollY > 20);
@@ -38,7 +39,18 @@ export function Navbar() {
     window.addEventListener("scroll", handler);
     return () => window.removeEventListener("scroll", handler);
   }, []);
+  useEffect(() => {
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setMobileOpen(false);
+    };
+    window.addEventListener("keydown", closeOnEscape);
+    return () => window.removeEventListener("keydown", closeOnEscape);
+  }, []);
 
+  useEffect(() => {
+    document.body.style.overflow = mobileOpen ? "hidden" : "";
+    return () => { document.body.style.overflow = ""; };
+  }, [mobileOpen]);
   return (
     <header
       className={`fixed inset-x-0 top-0 z-50 transition duration-300 ${scrolled ? "navbar-full navbar-scrolled" : "navbar-full"}`}
@@ -115,44 +127,22 @@ export function Navbar() {
         className={`absolute inset-x-0 bottom-0 h-1 ${scrolled ? "opacity-100" : "opacity-60"} bg-gradient-to-r from-transparent via-[#F58220] to-transparent transition-opacity duration-300`}
       />
 
-      <div
-        className={`fixed inset-0 z-40 bg-slate-950/70 backdrop-blur-sm transition-opacity duration-300 lg:hidden ${mobileOpen ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0"}`}
-        onClick={() => setMobileOpen(false)}
-      />
-      <aside
-        className={`fixed inset-y-0 right-0 z-50 w-full max-w-[380px] overflow-hidden rounded-l-[28px] border-l border-white/10 bg-[#0B1F3A]/95 p-6 shadow-[0_30px_80px_rgba(0,0,0,0.32)] backdrop-blur-xl transition-transform duration-300 lg:hidden ${mobileOpen ? "translate-x-0" : "translate-x-full"}`}
-        aria-hidden={!mobileOpen}
-      >
-        <div className="flex items-center justify-between">
-          <div>
-            <p className="text-sm uppercase tracking-[0.35em] text-brand-amber">
-              Menu
-            </p>
-            <h2 className="mt-2 font-display text-xl font-semibold text-white">
-              Explore P & L Above Heights
-            </h2>
-          </div>
-          <button
-            type="button"
-            onClick={() => setMobileOpen(false)}
-            className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-white/10 text-white transition hover:bg-white/20"
-          >
-            <X className="h-5 w-5" />
-          </button>
-        </div>
-        <div className="mt-8 space-y-3">
-          {mobileMenuItems.map((item) => (
-            <Link
-              key={item.label}
-              href={item.href}
-              onClick={() => setMobileOpen(false)}
-              className="flex w-full items-center rounded-[18px] border border-white/10 bg-white/5 px-4 py-4 text-sm font-semibold text-white transition hover:border-brand-blue hover:bg-white/10"
-            >
-              {item.label}
-            </Link>
-          ))}
-        </div>
-      </aside>
-    </header>
+      {mounted && createPortal(
+        <div className="lg:hidden">
+          <div className={`fixed inset-0 z-[70] bg-slate-950/55 backdrop-blur-sm transition-opacity duration-300 ${mobileOpen ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0"}`} onClick={() => setMobileOpen(false)} />
+          <aside className={`fixed right-4 top-[88px] z-[80] w-[min(86vw,320px)] rounded-[22px] border border-white/15 bg-[#0B1F3A]/95 p-3 shadow-[0_24px_60px_rgba(0,0,0,0.38)] backdrop-blur-xl transition-all duration-300 ${mobileOpen ? "translate-y-0 opacity-100" : "pointer-events-none -translate-y-3 opacity-0"}`} aria-hidden={!mobileOpen} aria-label="Mobile navigation">
+            <div className="mb-2 flex items-center justify-between px-2 pt-1">
+              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-brand-amber">Navigate</p>
+              <button type="button" onClick={() => setMobileOpen(false)} className="inline-flex h-8 w-8 items-center justify-center rounded-full text-white/80 transition hover:bg-white/10 hover:text-white active:scale-90" aria-label="Close mobile menu"><X className="h-4 w-4" /></button>
+            </div>
+            <nav className="space-y-1" aria-label="Mobile navigation links">
+              {primaryLinks.map((item) => {
+                const active = isActive(item.href as string, pathname);
+                return <Link key={item.label} href={item.href} onClick={() => setMobileOpen(false)} className={`flex w-full items-center rounded-xl px-3 py-2.5 text-sm font-semibold transition duration-200 active:scale-[0.98] ${active ? "bg-gradient-to-r from-[#F58220] to-[#F5A623] text-white shadow-[0_8px_20px_rgba(245,130,32,0.25)]" : "text-white/85 hover:bg-white/10 hover:pl-4 hover:text-white"}`}>{item.label}</Link>;
+              })}
+            </nav>
+          </aside>
+        </div>, document.body,
+      )}    </header>
   );
 }
