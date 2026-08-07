@@ -11,7 +11,7 @@ export default function RequestQuotationPage() {
   return (
     <main className="pt-[72px] sm:pt-[80px] lg:pt-[90px] bg-brand-bg">
       <section className="bg-brand-navy text-white">
-        <div className="container-shell py-24">
+        <div className="container-shell py-14 sm:py-20 lg:py-24">
           <div className="max-w-3xl">
             <p className="text-sm uppercase tracking-[0.35em] text-brand-amber">
               Request Quotation
@@ -27,7 +27,7 @@ export default function RequestQuotationPage() {
         </div>
       </section>
 
-      <section className="container-shell py-20">
+      <section className="container-shell py-12 sm:py-16 lg:py-20">
         <QuotationForm />
       </section>
     </main>

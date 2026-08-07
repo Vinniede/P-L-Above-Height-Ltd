@@ -293,7 +293,7 @@ export function ProjectsShowcase() {
             </div>
 
             <div className="mt-[-1.25rem] flex flex-wrap gap-3 px-2 sm:mt-[-1.5rem] sm:px-4">
-              <div className="flex min-w-[140px] flex-1 items-center gap-3 rounded-[1.1rem] border border-slate-200 bg-white p-3 shadow-soft">
+              <div className="flex min-w-0 flex-1 items-center gap-3 rounded-[1.1rem] border border-slate-200 bg-white p-3 shadow-soft">
                 <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-blue/10 text-brand-blue">
                   <Building2 className="h-5 w-5" />
                 </div>
@@ -304,7 +304,7 @@ export function ProjectsShowcase() {
                   </p>
                 </div>
               </div>
-              <div className="flex min-w-[140px] flex-1 items-center gap-3 rounded-[1.1rem] border border-slate-200 bg-white p-3 shadow-soft">
+              <div className="flex min-w-0 flex-1 items-center gap-3 rounded-[1.1rem] border border-slate-200 bg-white p-3 shadow-soft">
                 <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-blue/10 text-brand-blue">
                   <PackageOpen className="h-5 w-5" />
                 </div>
@@ -518,7 +518,7 @@ export function ProjectsShowcase() {
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: 20 }}
-              className="relative w-full max-w-5xl overflow-hidden rounded-[2rem] bg-white shadow-2xl"
+              className="relative max-h-[calc(100dvh-2rem)] w-full max-w-5xl overflow-y-auto rounded-[1.5rem] bg-white shadow-2xl sm:rounded-[2rem]"
             >
               <button
                 onClick={() => setSelectedProject(null)}
@@ -538,7 +538,7 @@ export function ProjectsShowcase() {
                   />
                 </div>
                 <div className="max-h-[80vh] overflow-y-auto p-7 lg:p-8">
-                  <div className="flex items-center justify-between gap-4">
+                  <div className="flex flex-wrap items-center justify-between gap-3">
                     <span className="rounded-full bg-brand-blue/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.25em] text-brand-blue">
                       {selectedProject.category}
                     </span>

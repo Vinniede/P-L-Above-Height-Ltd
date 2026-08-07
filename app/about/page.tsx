@@ -37,7 +37,7 @@ export default function AboutPage() {
           <source src="/images/p-and-l-above-heights-ltd.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-slate-950/70" />
-        <div className="relative container-shell py-16 lg:py-20">
+        <div className="relative container-shell py-14 sm:py-16 lg:py-20">
           <div className="max-w-3xl">
             <p className="text-sm uppercase tracking-[0.35em] text-brand-amber">
               About Our Company
@@ -54,7 +54,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="container-shell py-20">
+      <section className="container-shell py-12 sm:py-16 lg:py-20">
         <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
             <SectionHeading
@@ -70,7 +70,7 @@ export default function AboutPage() {
               contractor.
             </p>
           </div>
-          <div className="glass-card p-8">
+          <div className="glass-card p-5 sm:p-8">
             <h3 className="font-display text-2xl font-semibold text-brand-navy">
               Vision
             </h3>
@@ -89,9 +89,9 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="container-shell pb-20">
+      <section className="container-shell pb-12 sm:pb-16 lg:pb-20">
         <div className="grid gap-8 lg:grid-cols-2">
-          <div className="glass-card p-8">
+          <div className="glass-card p-5 sm:p-8">
             <div className="flex items-center gap-3">
               <ShieldCheck className="h-8 w-8 text-brand-orange" />
               <h3 className="font-display text-2xl font-semibold text-brand-navy">
@@ -104,7 +104,7 @@ export default function AboutPage() {
               delivery.
             </p>
           </div>
-          <div className="glass-card p-8">
+          <div className="glass-card p-5 sm:p-8">
             <div className="flex items-center gap-3">
               <BadgeCheck className="h-8 w-8 text-brand-orange" />
               <h3 className="font-display text-2xl font-semibold text-brand-navy">
@@ -119,8 +119,8 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="container-shell pb-20">
-        <div className="rounded-[2rem] bg-gradient-to-br from-brand-navy via-slate-800 to-brand-navy p-10 text-white">
+      <section className="container-shell pb-12 sm:pb-16 lg:pb-20">
+        <div className="rounded-[1.5rem] bg-gradient-to-br from-brand-navy via-slate-800 to-brand-navy p-5 text-white sm:rounded-[2rem] sm:p-10">
           <SectionHeading
             eyebrow="Core Values"
             title="The principles that guide every engagement."
@@ -142,9 +142,9 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="container-shell pb-24">
+      <section className="container-shell pb-14 sm:pb-20 lg:pb-24">
         <div className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
-          <div className="glass-card p-8">
+          <div className="glass-card p-5 sm:p-8">
             <div className="flex items-center gap-3">
               <Wrench className="h-7 w-7 text-brand-orange" />
               <h3 className="font-display text-2xl font-semibold text-brand-navy">
@@ -157,7 +157,7 @@ export default function AboutPage() {
               across Kenya.
             </p>
           </div>
-          <div className="glass-card p-8">
+          <div className="glass-card p-5 sm:p-8">
             <div className="flex items-center gap-3">
               <Factory className="h-7 w-7 text-brand-orange" />
               <h3 className="font-display text-2xl font-semibold text-brand-navy">

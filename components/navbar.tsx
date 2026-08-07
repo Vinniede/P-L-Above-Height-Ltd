@@ -130,15 +130,15 @@ export function Navbar() {
       {mounted && createPortal(
         <div className="lg:hidden">
           <div className={`fixed inset-0 z-[70] bg-slate-950/55 backdrop-blur-sm transition-opacity duration-300 ${mobileOpen ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0"}`} onClick={() => setMobileOpen(false)} />
-          <aside className={`fixed right-4 top-[88px] z-[80] w-[min(86vw,320px)] rounded-[22px] border border-white/15 bg-[#0B1F3A]/95 p-3 shadow-[0_24px_60px_rgba(0,0,0,0.38)] backdrop-blur-xl transition-all duration-300 ${mobileOpen ? "translate-y-0 opacity-100" : "pointer-events-none -translate-y-3 opacity-0"}`} aria-hidden={!mobileOpen} aria-label="Mobile navigation">
-            <div className="mb-2 flex items-center justify-between px-2 pt-1">
+          <aside className={`fixed right-3 top-[76px] z-[80] w-[min(80vw,280px)] rounded-[18px] border border-white/15 bg-[#0B1F3A]/95 p-2 shadow-[0_24px_60px_rgba(0,0,0,0.38)] backdrop-blur-xl transition-all duration-300 ${mobileOpen ? "translate-y-0 opacity-100" : "pointer-events-none -translate-y-3 opacity-0"}`} aria-hidden={!mobileOpen} aria-label="Mobile navigation">
+            <div className="mb-1 flex items-center justify-between px-2">
               <p className="text-xs font-semibold uppercase tracking-[0.22em] text-brand-amber">Navigate</p>
               <button type="button" onClick={() => setMobileOpen(false)} className="inline-flex h-8 w-8 items-center justify-center rounded-full text-white/80 transition hover:bg-white/10 hover:text-white active:scale-90" aria-label="Close mobile menu"><X className="h-4 w-4" /></button>
             </div>
             <nav className="space-y-1" aria-label="Mobile navigation links">
               {primaryLinks.map((item) => {
                 const active = isActive(item.href as string, pathname);
-                return <Link key={item.label} href={item.href} onClick={() => setMobileOpen(false)} className={`flex w-full items-center rounded-xl px-3 py-2.5 text-sm font-semibold transition duration-200 active:scale-[0.98] ${active ? "bg-gradient-to-r from-[#F58220] to-[#F5A623] text-white shadow-[0_8px_20px_rgba(245,130,32,0.25)]" : "text-white/85 hover:bg-white/10 hover:pl-4 hover:text-white"}`}>{item.label}</Link>;
+                return <Link key={item.label} href={item.href} onClick={() => setMobileOpen(false)} className={`flex w-full items-center rounded-lg px-3 py-2 text-sm font-semibold transition duration-200 active:scale-[0.98] ${active ? "bg-gradient-to-r from-[#F58220] to-[#F5A623] text-white shadow-[0_8px_20px_rgba(245,130,32,0.25)]" : "text-white/85 hover:bg-white/10 hover:pl-4 hover:text-white"}`}>{item.label}</Link>;
               })}
             </nav>
           </aside>

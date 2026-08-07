@@ -6,8 +6,8 @@ export function QuotationForm() {
   const [submitted, setSubmitted] = useState(false);
 
   return (
-    <div className="mx-auto max-w-5xl rounded-[2rem] border border-slate-200 bg-white p-8 shadow-soft">
-      <h2 className="font-display text-3xl font-semibold text-brand-navy">
+    <div className="mx-auto max-w-5xl rounded-[1.5rem] border border-slate-200 bg-white p-5 shadow-soft sm:rounded-[2rem] sm:p-8">
+      <h2 className="font-display text-2xl font-semibold text-brand-navy sm:text-3xl">
         Quotation Request Form
       </h2>
       <p className="mt-3 text-slate-600">
@@ -80,7 +80,7 @@ export function QuotationForm() {
             Upload Specifications
           </label>
         </div>
-        <button className="rounded-full bg-brand-orange px-6 py-3 font-semibold text-white transition hover:bg-brand-navy">
+        <button className="w-full rounded-full bg-brand-orange px-6 py-3 font-semibold text-white transition hover:bg-brand-navy sm:w-auto">
           Submit Request
         </button>
       </form>

@@ -11,7 +11,7 @@ export default function ContactPage() {
   return (
     <main className="pt-[72px] sm:pt-[80px] lg:pt-[90px] bg-brand-bg">
       <section className="bg-brand-navy text-white">
-        <div className="container-shell py-24">
+        <div className="container-shell py-14 sm:py-20 lg:py-24">
           <div className="max-w-3xl">
             <p className="text-sm uppercase tracking-[0.35em] text-brand-amber">
               Get In Touch
@@ -28,10 +28,10 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <section className="container-shell py-20">
+      <section className="container-shell py-12 sm:py-16 lg:py-20">
         <div className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
-          <div className="glass-card p-8">
-            <h2 className="font-display text-3xl font-semibold text-brand-navy">
+          <div className="glass-card p-5 sm:p-8">
+            <h2 className="font-display text-2xl font-semibold text-brand-navy sm:text-3xl">
               Contact details
             </h2>
             <div className="mt-8 space-y-6 text-slate-700">
@@ -83,8 +83,8 @@ export default function ContactPage() {
             </div>
           </div>
 
-          <div className="glass-card p-8">
-            <h2 className="font-display text-3xl font-semibold text-brand-navy">
+          <div className="glass-card p-5 sm:p-8">
+            <h2 className="font-display text-2xl font-semibold text-brand-navy sm:text-3xl">
               Send us a message
             </h2>
             <form className="mt-8 space-y-5">
@@ -112,7 +112,7 @@ export default function ContactPage() {
                 className="min-h-40 w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none"
                 placeholder="How can we help?"
               ></textarea>
-              <button className="rounded-full bg-brand-orange px-6 py-3 font-semibold text-white transition hover:bg-brand-navy">
+              <button className="w-full rounded-full bg-brand-orange px-6 py-3 font-semibold text-white transition hover:bg-brand-navy sm:w-auto">
                 Send Message
               </button>
             </form>
