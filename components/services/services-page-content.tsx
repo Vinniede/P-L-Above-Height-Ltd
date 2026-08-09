@@ -144,7 +144,10 @@ export function ServicesPageContent() {
           playsInline
           className="absolute inset-0 h-full w-full object-cover"
         >
-          <source src="/images/p-and-l-above-heights-ltd.mp4" type="video/mp4" />
+          <source
+            src="/images/p-and-l-above-heights-ltd.mp4"
+            type="video/mp4"
+          />
         </video>
         <div className="absolute inset-0 bg-slate-950/60" />
         <div
@@ -332,10 +335,11 @@ export function ServicesPageContent() {
               description="We bring together engineering discipline, strict procurement standards, and dependable site execution to support projects from planning to completion."
             />
             <p className="mt-8 text-lg leading-8 text-slate-700">
-              Our services span construction delivery, building materials
-              supply, quarry products, engineering supplies, welding consumables
-              and industrial safety equipment. Every engagement is handled with
-              rigor, transparency and a focus on lasting value.
+              Our services span construction delivery, cement & building
+              materials supply, quarry products, engineering supplies, welding
+              consumables & equipment and industrial safety equipment. Every
+              engagement is handled with rigor, transparency and a focus on
+              lasting value.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               {serviceHighlights.map((item) => (
@@ -482,7 +486,7 @@ export function ServicesPageContent() {
             <div className="inline-flex items-center gap-3 rounded-full border border-brand-blue/20 bg-white px-4 py-2">
               <span className="h-2.5 w-2.5 rounded-full bg-brand-orange" />
               <p className="text-sm font-semibold uppercase tracking-[0.35em] text-brand-blue">
-                Building Materials
+                Cement & Building Materials
               </p>
             </div>
             <h2 className="mt-6 font-display text-4xl font-semibold leading-tight text-brand-orange sm:text-5xl">
@@ -704,12 +708,12 @@ export function ServicesPageContent() {
                 <div className="inline-flex items-center gap-3 rounded-full border border-white/20 bg-white/10 px-4 py-2 backdrop-blur">
                   <span className="h-2.5 w-2.5 rounded-full bg-brand-orange" />
                   <p className="text-sm font-semibold uppercase tracking-[0.35em] text-brand-amber">
-                    Welding Consumables
+                    Welding Consumables & Equipment
                   </p>
                 </div>
                 <h2 className="font-display text-3xl font-semibold leading-tight text-white sm:text-4xl">
-                  Professional welding supplies for fabrication integrity and
-                  dependable performance.
+                  Reliable welding products for fabrication, construction and
+                  repair.
                 </h2>
               </div>
               <div className="grid gap-5">
@@ -911,7 +915,9 @@ export function ServicesPageContent() {
                   <h3 className="font-display text-2xl font-semibold text-brand-navy">
                     {industry.title}
                   </h3>
-                  <p className="text-sm leading-6 text-slate-600">{industry.description}</p>
+                  <p className="text-sm leading-6 text-slate-600">
+                    {industry.description}
+                  </p>
                   <Link
                     href="/contact"
                     className="inline-flex items-center rounded-full border border-brand-blue/10 bg-brand-blue/5 px-5 py-2 text-sm font-semibold text-brand-blue transition hover:bg-brand-blue/10"

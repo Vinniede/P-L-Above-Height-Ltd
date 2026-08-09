@@ -8,9 +8,9 @@ import { SectionHeading } from "@/components/section-heading";
 
 const products = [
   {
-    title: "Construction Materials",
+    title: "Cement & Building Materials",
     description:
-      "Premium cement, reinforcement and building materials for dependable structural delivery.",
+      "We supply a wide range of cement and essential building materials to support construction projects of different scales, with dependable product availability and supply support.",
     image: "/images/products/premium-cement-bags.jfif",
   },
   {
@@ -38,9 +38,9 @@ const products = [
     image: "/images/products/measuring-tools.jfif",
   },
   {
-    title: "Welding Consumables",
+    title: "Welding Consumables & Equipment",
     description:
-      "Dependable welding machines, rods and accessories for fabrication environments.",
+      "We supply welding rods, equipment and essential welding accessories for professional fabrication, maintenance, construction and repair applications.",
     image: "/images/products/welding-machine.jfif",
   },
 ];

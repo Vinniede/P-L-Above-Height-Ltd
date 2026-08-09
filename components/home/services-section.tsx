@@ -24,9 +24,9 @@ const services = [
   },
   {
     icon: Layers3,
-    title: "Building Materials",
+    title: "Cement & Building Materials",
     description:
-      "Premium materials sourced for durability, efficiency and dependable project delivery.",
+      "We supply a wide range of cement and essential building materials to support construction projects of different scales, with dependable product availability and supply support.",
     image: "/images/services/construction-materials-display.jfif",
   },
   {
@@ -52,9 +52,9 @@ const services = [
   },
   {
     icon: Sparkles,
-    title: "Welding Consumables",
+    title: "Welding Consumables & Equipment",
     description:
-      "High-performance consumables for fabrication and repair projects.",
+      "We supply welding rods, equipment and essential welding accessories for professional fabrication, maintenance, construction and repair applications.",
     image: "/images/services/welder-with-sparks.jfif",
   },
 ];

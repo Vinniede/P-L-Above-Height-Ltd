@@ -57,7 +57,7 @@ export default function ContactPage() {
                 <Phone className="mt-1 h-5 w-5 text-brand-orange" />
                 <div>
                   <p className="font-semibold text-brand-navy">Call Us</p>
-                  <p>0783 448 888</p>
+                  <p>0725 406 058</p>
                   <p>0745 244 718</p>
                 </div>
               </div>

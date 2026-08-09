@@ -22,68 +22,140 @@ import { SectionHeading } from "@/components/section-heading";
 const categorySections = [
   {
     id: "construction-materials",
-    eyebrow: "Construction Materials",
+    eyebrow: "Cement & Building Materials",
     title:
-      "Reliable construction materials for residential, commercial and infrastructure projects.",
+      "Quality materials for residential, commercial and infrastructure projects.",
     description:
-      "Premium cement, reinforcement, blocks and roofing solutions built for structural integrity and dependable delivery.",
+      "We supply a wide range of cement and essential building materials to support construction projects of different scales, with dependable product availability and supply support.",
     image: "/images/products/premium-cement-bags.jfif",
     products: [
       {
-        name: "Premium Cement Bags",
+        name: "Savannah Cement",
         description:
-          "High-performance cement designed for strong, durable and dependable structural builds.",
+          "Quality cement supplied for a wide range of residential, commercial and infrastructure construction requirements.",
         applications: [
           "Residential construction",
           "Commercial buildings",
           "Infrastructure projects",
         ],
-        features: ["High strength", "Reliable performance", "Quality assured"],
-        image: "/images/products/premium-cement-bags.jfif",
+        features: [
+          "Reliable cement supply",
+          "Suitable for different construction requirements",
+          "Available for project and bulk orders",
+        ],
+        image: encodeURI("/images/products/Savannah Cement.jpg"),
+      },
+      {
+        name: "Bamburi Cement",
+        description:
+          "Quality cement supplied for construction projects requiring dependable materials and consistent supply.",
+        applications: [
+          "Residential construction",
+          "Commercial buildings",
+          "Infrastructure projects",
+        ],
+        features: [
+          "Reliable product supply",
+          "Suitable for construction projects",
+          "Available for project requirements",
+        ],
+        image: encodeURI("/images/products/Bamburi Cement.jpg"),
+      },
+      {
+        name: "Portland Cement",
+        description:
+          "Cement supplied for general building and construction applications across residential, commercial and infrastructure projects.",
+        applications: [
+          "Building construction",
+          "Structural works",
+          "General construction",
+        ],
+        features: [
+          "Reliable supply",
+          "Suitable for varied construction needs",
+          "Available for project and bulk requirements",
+        ],
+        image: encodeURI("/images/products/Portland Cement.jpg"),
       },
       {
         name: "Reinforcement Bars",
         description:
-          "Engineered steel reinforcement suitable for concrete structures requiring resilience and consistency.",
-        applications: ["Slabs & beams", "Foundations", "High-load structures"],
+          "Steel reinforcement supplied for concrete structures requiring strength, stability and structural support.",
+        applications: [
+          "Foundations",
+          "Slabs and beams",
+          "Structural construction",
+        ],
         features: [
-          "Structural reliability",
-          "Consistent grade",
-          "Bulk availability",
+          "Structural reinforcement",
+          "Consistent supply",
+          "Suitable for project and bulk requirements",
         ],
         image: "/images/products/reinforcement-bars.jfif",
       },
       {
         name: "Building Blocks",
         description:
-          "Durable masonry units for fast, clean and dependable walling and partitioning.",
+          "Durable building blocks supplied for walling, partitioning and general construction applications.",
         applications: [
+          "Residential buildings",
+          "Commercial buildings",
           "Wall construction",
-          "Commercial fit-out",
-          "Residential projects",
         ],
         features: [
-          "Precision finish",
-          "Efficient installation",
-          "Long-lasting build",
+          "Durable construction",
+          "Practical for walling applications",
+          "Suitable for different project requirements",
         ],
         image: "/images/products/building-blocks.jfif",
       },
       {
         name: "Roofing Materials",
         description:
-          "Quality roofing solutions designed to protect assets and deliver dependable performance.",
+          "Roofing materials supplied for projects requiring dependable protection and practical building solutions.",
         applications: [
-          "Industrial roofs",
-          "Residential shelters",
-          "Facility upgrades",
+          "Residential buildings",
+          "Commercial buildings",
+          "Industrial facilities",
         ],
         features: [
-          "Weather-ready",
-          "Low maintenance",
-          "Project-specific supply",
+          "Suitable for different roofing requirements",
+          "Reliable product supply",
+          "Available for project requirements",
         ],
         image: "/images/products/roofing-materials.jfif",
+      },
+      {
+        name: "Nails",
+        description:
+          "Essential building fasteners supplied for construction, carpentry, roofing and general building applications.",
+        applications: [
+          "Timber construction",
+          "Roofing work",
+          "General building",
+        ],
+        features: [
+          "Practical for construction applications",
+          "Available in different requirements",
+          "Suitable for project and general use",
+        ],
+        image: "/images/products/Nails.jpg",
+      },
+      {
+        name: "Gypsum",
+        description:
+          "Gypsum building products supplied for interior construction, partitioning and finishing applications.",
+        applications: [
+          "Interior partitions",
+          "Ceiling applications",
+          "Building finishes",
+        ],
+        features: [
+          "Suitable for interior construction",
+          "Practical for partitioning and finishing",
+          "Available for project requirements",
+        ],
+        image: "/images/products/Gypsum.jpg",
       },
     ],
   },
@@ -325,55 +397,67 @@ const categorySections = [
   },
   {
     id: "welding-equipment",
-    eyebrow: "Welding Equipment",
+    eyebrow: "Welding Consumables & Equipment",
     title:
-      "Industrial welding solutions for fabrication integrity and dependable output.",
+      "Reliable welding products for fabrication, construction and repair.",
     description:
-      "Equipment and consumables supporting professional welding environments with precision and confidence.",
+      "We supply welding rods, equipment and essential welding accessories for professional fabrication, maintenance, construction and repair applications.",
     image: "/images/products/welding-machine.jfif",
     products: [
       {
-        name: "Welding Machine",
+        name: "Welding Rods & Electrodes",
         description:
-          "Robust welding equipment for dependable fabrication and repair operations.",
-        applications: ["Structural work", "Repair jobs", "Fabrication shops"],
+          "A wide range of welding rods and electrodes available for different welding and fabrication requirements.",
+        applications: [
+          "Metal fabrication",
+          "Construction work",
+          "Maintenance and repairs",
+        ],
         features: [
-          "Reliable output",
-          "Professional performance",
-          "Project-ready",
+          "Wide range of options",
+          "Different sizes and specifications",
+          "Suitable for various welding requirements",
+        ],
+        image: encodeURI("/images/products/Welding Rods & Electrodes.jpg"),
+      },
+      {
+        name: "Welding Machines",
+        description:
+          "Welding equipment supplied for fabrication, repair and general welding operations.",
+        applications: ["Structural work", "Repair jobs", "Fabrication"],
+        features: [
+          "Reliable equipment",
+          "Practical for workshop use",
+          "Suitable for different welding requirements",
         ],
         image: "/images/products/welding-machine.jfif",
       },
       {
-        name: "Welding Rods",
+        name: "Welding Masks",
         description:
-          "High-quality rods designed to support strong welds and fabrication continuity.",
-        applications: [
-          "Metal fabrication",
-          "Maintenance",
-          "Structural repairs",
-        ],
-        features: ["Strong fusion", "Consistent quality", "Wide compatibility"],
-        image: "/images/products/welding-rods.jfif",
-      },
-      {
-        name: "Welding Mask",
-        description:
-          "Essential protection for safer welding operations with a clear, focused field of view.",
+          "Protective welding equipment designed to support safer welding operations.",
         applications: ["Fabrication", "Repair work", "Site welding"],
-        features: ["Eye protection", "Comfort fit", "Durable build"],
+        features: [
+          "Eye and face protection",
+          "Comfortable use",
+          "Durable construction",
+        ],
         image: "/images/products/welding-mask.jfif",
       },
       {
         name: "Gas Cylinders",
         description:
-          "Dependable gas systems supporting professional welding and fabrication work.",
+          "Gas cylinders supplied for welding and fabrication applications.",
         applications: [
-          "Shielded welding",
-          "Industrial fabrication",
-          "Workshop support",
+          "Welding operations",
+          "Fabrication",
+          "Workshop applications",
         ],
-        features: ["Safe handling", "Reliable supply", "Industrial-grade"],
+        features: [
+          "Reliable supply",
+          "Suitable for welding applications",
+          "Available for project requirements",
+        ],
         image: "/images/products/gas-cylinders.jfif",
       },
     ],
@@ -423,6 +507,7 @@ const stats = [
 
 export function ProductsPageContent() {
   const [activeSection, setActiveSection] = useState(categorySections[0].id);
+  const [mobileCatalogOpen, setMobileCatalogOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -453,7 +538,10 @@ export function ProductsPageContent() {
           playsInline
           className="absolute inset-0 h-full w-full object-cover"
         >
-          <source src="/images/p-and-l-above-heights-ltd.mp4" type="video/mp4" />
+          <source
+            src="/images/p-and-l-above-heights-ltd.mp4"
+            type="video/mp4"
+          />
         </video>
         <div className="absolute inset-0 bg-slate-950/60" />
         <div
@@ -671,9 +759,13 @@ export function ProductsPageContent() {
         </div>
       </section>
 
-      <section id="catalogue" className="bg-brand-bg py-6 sticky top-20 z-20">
-        <div className="container-shell">
-          <div className="flex flex-wrap justify-center gap-3 rounded-full border border-slate-200 bg-white/90 p-3 shadow-soft backdrop-blur">
+      <section
+        id="catalogue"
+        className="bg-brand-bg py-2 md:py-6 sticky top-20 z-20"
+      >
+        <div className="container-shell relative">
+          {/* Desktop / tablet: show full pill list */}
+          <div className="hidden md:flex flex-wrap justify-center gap-3 rounded-full border border-slate-200 bg-white/90 p-3 shadow-soft backdrop-blur">
             {categorySections.map((section) => (
               <a
                 key={section.id}
@@ -683,6 +775,36 @@ export function ProductsPageContent() {
                 {section.eyebrow}
               </a>
             ))}
+          </div>
+
+          {/* Mobile: compact toggle that opens a popover with the same links */}
+          <div className="md:hidden flex justify-center py-1">
+            <div className="relative">
+              <button
+                type="button"
+                onClick={() => setMobileCatalogOpen((s) => !s)}
+                className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-brand-blue"
+              >
+                Categories
+              </button>
+
+              {mobileCatalogOpen && (
+                <div className="absolute left-0 right-0 top-full z-30 mt-2 rounded-lg border border-slate-200 bg-white p-3 shadow-lg">
+                  <div className="flex flex-wrap justify-center gap-3">
+                    {categorySections.map((section) => (
+                      <a
+                        key={section.id}
+                        href={`#${section.id}`}
+                        onClick={() => setMobileCatalogOpen(false)}
+                        className={`rounded-full px-4 py-2 text-sm font-semibold transition ${activeSection === section.id ? "bg-brand-blue text-white shadow-sm" : "text-slate-700 hover:bg-brand-blue/10 hover:text-brand-blue"}`}
+                      >
+                        {section.eyebrow}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </section>

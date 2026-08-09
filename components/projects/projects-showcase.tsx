@@ -73,7 +73,11 @@ const projects = [
       "A high-standard commercial build completed with durable materials and efficient delivery.",
     image: "/images/projects/commercial-buildings.jfif",
     scope: ["Commercial fit-out", "Structural supply", "Site management"],
-    products: ["Steel products", "Engineering tools", "Welding consumables"],
+    products: [
+      "Steel products",
+      "Engineering tools",
+      "Welding Consumables & Equipment",
+    ],
     services: ["Construction delivery", "Project coordination"],
     challenge: "Strict client quality standards and phased occupancy.",
     solution:
@@ -211,7 +215,10 @@ export function ProjectsShowcase() {
           playsInline
           className="absolute inset-0 h-full w-full object-cover"
         >
-          <source src="/images/p-and-l-above-heights-ltd.mp4" type="video/mp4" />
+          <source
+            src="/images/p-and-l-above-heights-ltd.mp4"
+            type="video/mp4"
+          />
         </video>
         <div className="absolute inset-0 bg-slate-950/60" />
         <div
