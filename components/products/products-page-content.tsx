@@ -500,8 +500,8 @@ const whyChoose = [
 
 const stats = [
   { value: "15+", label: "Years Experience" },
-  { value: "200+", label: "Products Delivered" },
-  { value: "100+", label: "Projects Supported" },
+  { value: "100+", label: "Products Delivered" },
+  { value: "30+", label: "Projects Supported" },
   { value: "500+", label: "Satisfied Clients" },
 ];
 
@@ -639,7 +639,7 @@ export function ProductsPageContent() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0B1F3A]/35 via-transparent to-transparent" />
                   <div className="absolute left-4 top-4 rounded-full border border-white/30 bg-white/90 px-3 py-2 text-sm font-semibold text-brand-blue shadow-sm">
-                    500+ Products Available
+                    100+ Products Available
                   </div>
                 </motion.div>
               </div>
@@ -656,7 +656,7 @@ export function ProductsPageContent() {
                   </div>
                   <div>
                     <p className="text-lg font-semibold text-brand-navy">
-                      500+
+                      100+
                     </p>
                     <p className="text-[11px] uppercase tracking-[0.25em] text-slate-500">
                       Products
@@ -674,7 +674,7 @@ export function ProductsPageContent() {
                   </div>
                   <div>
                     <p className="text-lg font-semibold text-brand-navy">
-                      100+
+                      50+
                     </p>
                     <p className="text-[11px] uppercase tracking-[0.25em] text-slate-500">
                       Trusted Suppliers

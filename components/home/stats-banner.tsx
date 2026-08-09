@@ -4,8 +4,8 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const stats = [
-  { value: "150+", label: "Completed Projects" },
-  { value: "500+", label: "Products Delivered" },
+  { value: "30+", label: "Completed Projects" },
+  { value: "100+", label: "Products Delivered" },
   { value: "20+", label: "Industry Partners" },
   { value: "98%", label: "Client Satisfaction" },
 ];

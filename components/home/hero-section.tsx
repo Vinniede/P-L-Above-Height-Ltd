@@ -30,7 +30,7 @@ export function HeroSection() {
   }, []);
 
   return (
-    <section className="relative isolate min-h-[33vh] overflow-hidden bg-slate-950 text-white">
+    <section className="relative isolate min-h-[44vh] overflow-hidden bg-slate-950 text-white sm:min-h-[50vh] lg:min-h-[56vh]">
       <div className="absolute inset-0">
         {slides.map((slide, index) => (
           <motion.div
@@ -54,14 +54,14 @@ export function HeroSection() {
         <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(11,31,58,0.08)_0%,rgba(11,31,58,0.28)_45%,rgba(11,31,58,0.72)_100%)]" />
       </div>
 
-      <div className="container-shell relative flex flex-col gap-8 min-h-[33vh] items-center py-4 lg:py-6 lg:flex-row-reverse lg:items-start">
+      <div className="container-shell relative flex min-h-[44vh] flex-col gap-8 items-center py-6 sm:py-8 lg:min-h-[56vh] lg:flex-row-reverse lg:items-start lg:py-10">
         <div className="hidden lg:block lg:basis-1/3">
           <div className="space-y-3">
             <div className="rounded-[1.5rem] border border-white/10 bg-slate-950/70 p-4 shadow-[0_16px_50px_rgba(0,0,0,0.20)] backdrop-blur-xl">
               <div className="flex items-center gap-2 text-brand-amber">
                 <Building2 className="h-5 w-5" />
                 <div>
-                  <p className="text-xl font-semibold">150+</p>
+                  <p className="text-xl font-semibold">30+</p>
                   <p className="text-[11px] uppercase tracking-[0.28em] text-slate-300">
                     Projects Completed
                   </p>
@@ -72,7 +72,7 @@ export function HeroSection() {
               <div className="flex items-center gap-2 text-brand-amber">
                 <PackageOpen className="h-5 w-5" />
                 <div>
-                  <p className="text-xl font-semibold">500+</p>
+                  <p className="text-xl font-semibold">100+</p>
                   <p className="text-[11px] uppercase tracking-[0.28em] text-slate-300">
                     Quality Products
                   </p>
@@ -108,7 +108,7 @@ export function HeroSection() {
               quality, precision and reliability.
             </span>
           </h1>
-          <p className="mt-4 text-base leading-7 text-slate-200 sm:text-lg">
+          <p className="mt-4 max-w-2xl text-base leading-7 text-slate-200 sm:text-lg">
             Delivering premium construction services, engineering expertise,
             industrial supplies and infrastructure solutions for projects across
             Kenya.

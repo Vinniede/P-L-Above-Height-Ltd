@@ -65,8 +65,8 @@ const industries = [
 ];
 
 const stats = [
-  { value: "150+", label: "Projects Delivered" },
-  { value: "500+", label: "Products Supplied" },
+  { value: "30+", label: "Projects Delivered" },
+  { value: "100+", label: "Products Supplied" },
   { value: "20+", label: "Industry Partners" },
   { value: "100%", label: "Quality Commitment" },
 ];

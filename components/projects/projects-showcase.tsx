@@ -294,7 +294,7 @@ export function ProjectsShowcase() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0B1F3A]/35 via-transparent to-transparent" />
                 <div className="absolute left-4 top-4 rounded-full border border-white/30 bg-white/90 px-3 py-2 text-sm font-semibold text-brand-blue shadow-sm">
-                  150+ Projects Completed
+                  30+ Projects Completed
                 </div>
               </motion.div>
             </div>
@@ -305,7 +305,7 @@ export function ProjectsShowcase() {
                   <Building2 className="h-5 w-5" />
                 </div>
                 <div>
-                  <p className="text-lg font-semibold text-brand-navy">150+</p>
+                  <p className="text-lg font-semibold text-brand-navy">30+</p>
                   <p className="text-[11px] uppercase tracking-[0.25em] text-slate-500">
                     Completed Projects
                   </p>
@@ -316,7 +316,7 @@ export function ProjectsShowcase() {
                   <PackageOpen className="h-5 w-5" />
                 </div>
                 <div>
-                  <p className="text-lg font-semibold text-brand-navy">500+</p>
+                  <p className="text-lg font-semibold text-brand-navy">100+</p>
                   <p className="text-[11px] uppercase tracking-[0.25em] text-slate-500">
                     Products Supplied
                   </p>
