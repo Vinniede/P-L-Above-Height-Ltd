@@ -30,7 +30,7 @@ export function HeroSection() {
   }, []);
 
   return (
-    <section className="relative isolate min-h-[44vh] overflow-hidden bg-slate-950 text-white sm:min-h-[50vh] lg:min-h-[56vh]">
+    <section className="relative isolate min-h-[44vh] overflow-hidden bg-slate-950 text-white sm:min-h-[50vh] lg:min-h-[72vh]">
       <div className="absolute inset-0">
         {slides.map((slide, index) => (
           <motion.div
@@ -54,7 +54,7 @@ export function HeroSection() {
         <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(11,31,58,0.08)_0%,rgba(11,31,58,0.28)_45%,rgba(11,31,58,0.72)_100%)]" />
       </div>
 
-      <div className="container-shell relative flex min-h-[44vh] flex-col gap-8 items-center py-6 sm:py-8 lg:min-h-[56vh] lg:flex-row-reverse lg:items-start lg:py-10">
+      <div className="container-shell relative flex min-h-[44vh] flex-col gap-8 items-center py-6 sm:py-8 lg:min-h-[72vh] lg:flex-row-reverse lg:items-start lg:py-10">
         <div className="hidden lg:block lg:basis-1/3">
           <div className="space-y-3">
             <div className="rounded-[1.5rem] border border-white/10 bg-slate-950/70 p-4 shadow-[0_16px_50px_rgba(0,0,0,0.20)] backdrop-blur-xl">
