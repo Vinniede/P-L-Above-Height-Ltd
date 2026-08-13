@@ -11,7 +11,7 @@ const products = [
     title: "Cement & Building Materials",
     description:
       "We supply a wide range of cement and essential building materials to support construction projects of different scales, with dependable product availability and supply support.",
-    image: "/images/products/premium-cement-bags.jfif",
+    image: "/images/products/Blue Triangle Cement.jpg",
   },
   {
     title: "Steel Products",
