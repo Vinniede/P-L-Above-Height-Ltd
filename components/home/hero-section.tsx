@@ -102,11 +102,9 @@ export function HeroSection() {
           <span className="text-xs font-semibold uppercase tracking-[0.35em] text-brand-amber bg-slate-950/40 px-2 py-1 rounded-full">
             P & L Above Heights Ltd
           </span>
-          <h1 className="mt-4 font-display text-3xl font-semibold leading-tight text-white sm:text-4xl lg:text-5xl">
-            Building tomorrow with{" "}
-            <span className="text-brand-amber">
-              quality, precision and reliability.
-            </span>
+          <h1 className="mt-4 font-display text-4xl font-semibold leading-tight text-white sm:text-5xl lg:text-6xl">
+            Building strength.{" "}
+            <span className="text-brand-amber">Securing the future.</span>
           </h1>
           <p className="mt-4 max-w-2xl text-base leading-7 text-slate-200 sm:text-lg">
             Delivering premium construction services, engineering expertise,

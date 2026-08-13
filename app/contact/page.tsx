@@ -58,6 +58,7 @@ export default function ContactPage() {
                 <div>
                   <p className="font-semibold text-brand-navy">Call Us</p>
                   <p>0725 406 058</p>
+                  <p>0783 448 888</p>
                   <p>0745 244 718</p>
                 </div>
               </div>

@@ -46,23 +46,23 @@ const categorySections = [
         image: encodeURI("/images/products/Savannah Cement.jpg"),
       },
       {
-        name: "Bamburi Cement",
+        name: "Blue Triangle Cement",
         description:
-          "Quality cement supplied for construction projects requiring dependable materials and consistent supply.",
+          "Quality cement supplied for a range of building and construction applications, supporting residential, commercial and infrastructure projects.",
         applications: [
           "Residential construction",
           "Commercial buildings",
-          "Infrastructure projects",
+          "General construction",
         ],
         features: [
           "Reliable product supply",
-          "Suitable for construction projects",
-          "Available for project requirements",
+          "Suitable for different construction requirements",
+          "Available for project and bulk orders",
         ],
-        image: encodeURI("/images/products/Bamburi Cement.jpg"),
+        image: encodeURI("/images/products/Blue Triangle Cement.jpg"),
       },
       {
-        name: "Portland Cement",
+        name: "Bamburi Cement",
         description:
           "Cement supplied for general building and construction applications across residential, commercial and infrastructure projects.",
         applications: [
@@ -142,20 +142,20 @@ const categorySections = [
         image: "/images/products/Nails.jpg",
       },
       {
-        name: "Gypsum",
+        name: "Blue Triangle Cement",
         description:
-          "Gypsum building products supplied for interior construction, partitioning and finishing applications.",
+          "Quality cement supplied for a range of building and construction applications, supporting residential, commercial and infrastructure projects.",
         applications: [
-          "Interior partitions",
-          "Ceiling applications",
-          "Building finishes",
+          "Residential construction",
+          "Commercial buildings",
+          "General construction",
         ],
         features: [
-          "Suitable for interior construction",
-          "Practical for partitioning and finishing",
-          "Available for project requirements",
+          "Reliable product supply",
+          "Suitable for different construction requirements",
+          "Available for project and bulk orders",
         ],
-        image: "/images/products/Gypsum.jpg",
+        image: encodeURI("/images/products/Blue Triangle Cement.jpg"),
       },
     ],
   },
@@ -673,9 +673,7 @@ export function ProductsPageContent() {
                     <ShieldCheck className="h-5 w-5" />
                   </div>
                   <div>
-                    <p className="text-lg font-semibold text-brand-navy">
-                      50+
-                    </p>
+                    <p className="text-lg font-semibold text-brand-navy">50+</p>
                     <p className="text-[11px] uppercase tracking-[0.25em] text-slate-500">
                       Trusted Suppliers
                     </p>
