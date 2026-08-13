@@ -401,13 +401,13 @@ const categorySections = [
     title:
       "Reliable welding products for fabrication, construction and repair.",
     description:
-      "We supply welding rods, equipment and essential welding accessories for professional fabrication, maintenance, construction and repair applications.",
+      "We supply welding rods, equipment and essential welding products for professional fabrication, maintenance, construction and repair applications.",
     image: "/images/products/welding-machine.jfif",
     products: [
       {
         name: "Welding Rods & Electrodes",
         description:
-          "A wide range of welding rods and electrodes available for different welding and fabrication requirements.",
+          "A wide range of welding rods and electrodes supplied for different welding and fabrication requirements.",
         applications: [
           "Metal fabrication",
           "Construction work",
@@ -445,20 +445,40 @@ const categorySections = [
         image: "/images/products/welding-mask.jfif",
       },
       {
-        name: "Gas Cylinders",
+        name: "Argon Cylinder & Regulator",
         description:
-          "Gas cylinders supplied for welding and fabrication applications.",
-        applications: [
-          "Welding operations",
-          "Fabrication",
-          "Workshop applications",
-        ],
+          "Argon gas cylinders supplied with regulators for welding applications requiring controlled gas flow.",
+        applications: ["TIG welding", "Metal fabrication", "Workshop welding"],
         features: [
-          "Reliable supply",
-          "Suitable for welding applications",
-          "Available for project requirements",
+          "Argon gas cylinder",
+          "Matching regulator",
+          "Controlled gas flow",
         ],
-        image: "/images/products/gas-cylinders.jfif",
+        image: encodeURI("/images/products/Argon Cylinder & Regulator.jpeg"),
+      },
+      {
+        name: "Acetylene Cylinder & Regulator",
+        description:
+          "Acetylene gas cylinders supplied with regulators for welding and cutting applications.",
+        applications: ["Gas welding", "Metal cutting", "Fabrication work"],
+        features: [
+          "Acetylene gas cylinder",
+          "Matching regulator",
+          "Suitable for welding applications",
+        ],
+        image: encodeURI("/images/products/Acetylene Cylinder & Regulator.jpeg"),
+      },
+      {
+        name: "Oxygen Cylinder & Regulator",
+        description:
+          "Oxygen gas cylinders supplied with regulators for welding, cutting and fabrication applications.",
+        applications: ["Gas welding", "Metal cutting", "Fabrication work"],
+        features: [
+          "Oxygen gas cylinder",
+          "Matching regulator",
+          "Controlled gas supply",
+        ],
+        image: encodeURI("/images/products/Oxygen Cylinder & Regulator.jpeg"),
       },
     ],
   },
