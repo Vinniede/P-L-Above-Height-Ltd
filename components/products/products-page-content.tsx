@@ -466,7 +466,9 @@ const categorySections = [
           "Matching regulator",
           "Suitable for welding applications",
         ],
-        image: encodeURI("/images/products/Acetylene Cylinder & Regulator.jpeg"),
+        image: encodeURI(
+          "/images/products/Acetylene Cylinder & Regulator.jpeg",
+        ),
       },
       {
         name: "Oxygen Cylinder & Regulator",

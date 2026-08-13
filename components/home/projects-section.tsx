@@ -40,7 +40,7 @@ const projects = [
     location: "Nakuru",
     category: "Industrial",
     image: "/images/projects/warehouses.jfif",
-    height: "h-76",
+    height: "h-[19rem]",
   },
   {
     title: "Factory Construction",
