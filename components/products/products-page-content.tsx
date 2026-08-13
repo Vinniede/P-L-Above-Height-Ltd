@@ -46,6 +46,38 @@ const categorySections = [
         image: encodeURI("/images/products/Savannah Cement.jpg"),
       },
       {
+        name: "Bamburi Cement",
+        description:
+          "Quality cement supplied for construction projects requiring dependable materials and consistent supply.",
+        applications: [
+          "Residential construction",
+          "Commercial buildings",
+          "Infrastructure projects",
+        ],
+        features: [
+          "Reliable product supply",
+          "Suitable for construction projects",
+          "Available for project requirements",
+        ],
+        image: encodeURI("/images/products/Bamburi Cement.jpg"),
+      },
+      {
+        name: "Portland Cement",
+        description:
+          "Cement supplied for general building and construction applications across residential, commercial and infrastructure projects.",
+        applications: [
+          "Building construction",
+          "Structural works",
+          "General construction",
+        ],
+        features: [
+          "Reliable supply",
+          "Suitable for varied construction needs",
+          "Available for project and bulk requirements",
+        ],
+        image: encodeURI("/images/products/Portland Cement.jpg"),
+      },
+      {
         name: "Blue Triangle Cement",
         description:
           "Quality cement supplied for a range of building and construction applications, supporting residential, commercial and infrastructure projects.",
@@ -60,22 +92,6 @@ const categorySections = [
           "Available for project and bulk orders",
         ],
         image: encodeURI("/images/products/Blue Triangle Cement.jpg"),
-      },
-      {
-        name: "Bamburi Cement",
-        description:
-          "Cement supplied for general building and construction applications across residential, commercial and infrastructure projects.",
-        applications: [
-          "Building construction",
-          "Structural works",
-          "General construction",
-        ],
-        features: [
-          "Reliable supply",
-          "Suitable for varied construction needs",
-          "Available for project and bulk requirements",
-        ],
-        image: encodeURI("/images/products/Portland Cement.jpg"),
       },
       {
         name: "Reinforcement Bars",
@@ -140,22 +156,6 @@ const categorySections = [
           "Suitable for project and general use",
         ],
         image: "/images/products/Nails.jpg",
-      },
-      {
-        name: "Blue Triangle Cement",
-        description:
-          "Quality cement supplied for a range of building and construction applications, supporting residential, commercial and infrastructure projects.",
-        applications: [
-          "Residential construction",
-          "Commercial buildings",
-          "General construction",
-        ],
-        features: [
-          "Reliable product supply",
-          "Suitable for different construction requirements",
-          "Available for project and bulk orders",
-        ],
-        image: encodeURI("/images/products/Blue Triangle Cement.jpg"),
       },
     ],
   },
