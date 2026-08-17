@@ -1,14 +1,18 @@
 import { MetadataRoute } from 'next';
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://plaboveheights.com';
+const baseUrl = siteUrl.replace(/\/$/, '');
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://example.com';
+  const now = new Date();
+
   return [
-    { url: baseUrl, lastModified: new Date() },
-    { url: `${baseUrl}/about`, lastModified: new Date() },
-    { url: `${baseUrl}/services`, lastModified: new Date() },
-    { url: `${baseUrl}/products`, lastModified: new Date() },
-    { url: `${baseUrl}/projects`, lastModified: new Date() },
-    { url: `${baseUrl}/contact`, lastModified: new Date() },
-    { url: `${baseUrl}/request-quotation`, lastModified: new Date() },
+    { url: baseUrl, lastModified: now },
+    { url: `${baseUrl}/about`, lastModified: now },
+    { url: `${baseUrl}/services`, lastModified: now },
+    { url: `${baseUrl}/products`, lastModified: now },
+    { url: `${baseUrl}/projects`, lastModified: now },
+    { url: `${baseUrl}/contact`, lastModified: now },
+    { url: `${baseUrl}/request-quotation`, lastModified: now },
   ];
 }

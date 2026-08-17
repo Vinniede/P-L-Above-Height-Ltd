@@ -11,20 +11,25 @@ const poppins = Poppins({
   variable: "--font-poppins",
 });
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://plaboveheights.com";
+
 export const metadata: Metadata = {
   title:
     "P & L Above Heights Ltd | Construction, Engineering & Industrial Supply",
   description:
     "Premium construction, engineering, and industrial supply partner in Kenya delivering quality projects and reliable logistics.",
-  metadataBase: new URL("https://example.com"),
-  alternates: { canonical: "https://example.com" },
+  metadataBase: new URL(siteUrl),
+  alternates: { canonical: siteUrl },
   icons: "/images/favicon.ico",
+  verification: {
+    google: process.env.GOOGLE_SITE_VERIFICATION || undefined,
+  },
   openGraph: {
     title: "P & L Above Heights Ltd",
     description:
       "Premium construction, engineering, and industrial supply partner in Kenya.",
     type: "website",
-    url: "https://example.com",
+    url: siteUrl,
     images: [
       {
         url: "/images/p-and-l-logo.jpeg",
